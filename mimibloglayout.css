@@ -14,7 +14,7 @@ p {
 		color: #FFFFFF; 
 	}
 	
-	cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;
+	cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;
 	-webkit-ind-animation: cursor 3200ms infinite;
 	animation: cursor 3200ms infinite;
 
@@ -24,7 +24,7 @@ p {
 	}
 
 	background: #000000;
-	background-image: url('https://adrianontheweb.com/graphics/dark-academia.png');
+	background-image: url('https://idylladrian.github.io/graphics/dark-academia.png');
 	background-size: 1152px 576px;
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -37,21 +37,21 @@ p {
 }
 
 @-webkit-ind-keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;}
-  15% {cursor: url('https://adrianontheweb.com/graphics/pencil-1.gif'), auto;}
-  30% {cursor: url('https://adrianontheweb.com/graphics/pencil-2.gif'), auto;}
-  45% {cursor: url('https://adrianontheweb.com/graphics/pencil-3.gif'), auto;}
-  60% {cursor: url('https://adrianontheweb.com/graphics/pencil-4.gif'), auto;}
-  75% {cursor: url('https://adrianontheweb.com/graphics/pencil-5.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/pencil-5.gif'), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;}
-  15% {cursor: url('https://adrianontheweb.com/graphics/pencil-1.gif'), auto;}
-  30% {cursor: url('https://adrianontheweb.com/graphics/pencil-2.gif'), auto;}
-  45% {cursor: url('https://adrianontheweb.com/graphics/pencil-3.gif'), auto;}
-  60% {cursor: url('https://adrianontheweb.com/graphics/pencil-4.gif'), auto;}
-  75% {cursor: url('https://adrianontheweb.com/graphics/pencil-5.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/pencil-5.gif'), auto;}
 }
 
 .loader-wrapper {
@@ -69,7 +69,7 @@ p {
 
 .loader {
 	display: block;
-	background-image: url('https://adrianontheweb.com/graphics/frog_loader.gif');
+	background-image: url('https://idylladrian.github.io/graphics/frog_loader.gif');
 	width: 100px;
 	height: 60px;
 	position: absolute;
@@ -123,7 +123,7 @@ p {
 }
 
 .graphic.id-0 {
-	background-image : url('https://adrianontheweb.com/graphics/candle0.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle0.gif');
 	position: absolute;
 	margin-left: 575px;
 	top: 0px;
@@ -132,7 +132,7 @@ p {
 }
 
 .graphic.id-1 {
-	background-image : url('https://adrianontheweb.com/graphics/candle1.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle1.gif');
 	position: absolute;
 	margin-left: -650px;
 	top: 150px;
@@ -141,7 +141,7 @@ p {
 }
 
 .graphic.id-2 {
-	background-image : url('https://adrianontheweb.com/graphics/candle2.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle2.gif');
 	position: absolute;
 	margin-left: 600px;
 	top: 200px;
@@ -150,7 +150,7 @@ p {
 }
 
 .graphic.id-3 {
-	background-image : url('https://adrianontheweb.com/graphics/candle3.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle3.gif');
 	position: absolute;
 	margin-left: -700px;
 	top: 100px;
@@ -159,7 +159,7 @@ p {
 }
 
 .graphic.id-4 {
-	background-image : url('https://adrianontheweb.com/graphics/candle4.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle4.gif');
 	position: absolute;
 	margin-left: -700px;
 	top: 300px;
@@ -168,7 +168,7 @@ p {
 }
 
 .graphic.id-5 {
-	background-image : url('https://adrianontheweb.com/graphics/candle5.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle5.gif');
 	position: absolute;
 	margin-left: 650px;
 	top: 250px;
@@ -177,7 +177,7 @@ p {
 }
 
 .graphic.id-6 {
-	background-image : url('https://adrianontheweb.com/graphics/candle6.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle6.gif');
 	position: absolute;
 	margin-left: 625px;
 	top: 350px;
@@ -186,7 +186,7 @@ p {
 }
 
 .graphic.id-7 {
-	background-image : url('https://adrianontheweb.com/graphics/candle7.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle7.gif');
 	position: absolute;
 	margin-left: -625px;
 	top: 400px;
@@ -195,7 +195,7 @@ p {
 }
 
 .graphic.id-8 {
-	background-image : url('https://adrianontheweb.com/graphics/candle8.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle8.gif');
 	position: absolute;
 	margin-left: -600px;
 	top: 100px;
@@ -204,7 +204,7 @@ p {
 }
 
 .graphic.id-9 {
-	background-image : url('https://adrianontheweb.com/graphics/candle9.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle9.gif');
 	position: absolute;
 	margin-left: 150px;
 	margin-top: 235px;
@@ -214,7 +214,7 @@ p {
 }
 
 .graphic.id-10 {
-	background-image : url('https://adrianontheweb.com/graphics/candle10.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle10.gif');
 	position: absolute;
 	margin-left: -725px;
 	top: 600px;
@@ -223,7 +223,7 @@ p {
 }
 
 .graphic.id-11 {
-	background-image : url('https://adrianontheweb.com/graphics/candle11.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle11.gif');
 	position: absolute;
 	margin-left: 600px;
 	top: 650px;
@@ -232,7 +232,7 @@ p {
 }
 
 .graphic.id-12 {
-	background-image : url('https://adrianontheweb.com/graphics/candle12.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle12.gif');
 	position: absolute;
 	margin-left: 580px;
 	top: 500px;
@@ -241,7 +241,7 @@ p {
 }
 
 .graphic.id-13 {
-	background-image : url('https://adrianontheweb.com/graphics/candle13.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle13.gif');
 	position: absolute;
 	margin-left: -700px;
 	top: 550px;
@@ -250,7 +250,7 @@ p {
 }
 
 .graphic.id-14 {
-	background-image : url('https://adrianontheweb.com/graphics/candle14.gif');
+	background-image : url('https://idylladrian.github.io/graphics/candle14.gif');
 	position: absolute;
 	margin-left: 675px;
 	top: 550px;

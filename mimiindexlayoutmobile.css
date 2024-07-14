@@ -33,7 +33,7 @@ p {
 		color: #FFFFFF; 
 	}
 	
-	cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;
+	cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;
 	-webkit-ind-animation: cursor 400ms infinite;
 	animation: cursor 400ms infinite;
 
@@ -43,7 +43,7 @@ p {
 	}
 
 	background: #00018E;
-	background-image: url('https://adrianontheweb.com/graphics/index_background.jpg');
+	background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
 	background-size: 400px 1000px;
 	weight: 100px;
 	height: 200px;
@@ -57,13 +57,13 @@ p {
 }
 
 @-webkit-ind-keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;}
-  100% {cursor: url('https://adrianontheweb.com/graphics/hottie-1.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/hottie-1.gif'), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;}
-  100% {cursor: url('https://adrianontheweb.com/graphics/hottie-1.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/hottie-1.gif'), auto;}
 }
 
 .center {
@@ -121,7 +121,7 @@ p {
 }
 
 .graphic.id-1 {
-	background-image: url('https://adrianontheweb.com/graphics/stars.gif');
+	background-image: url('https://idylladrian.github.io/graphics/stars.gif');
 	width: 20px;
 	height: 84px;
 	z-index: 999;
@@ -138,7 +138,7 @@ p {
 }
 
 .graphic.id-2 {
-	background-image: url('https://adrianontheweb.com/graphics/Stars(1).gif');
+	background-image: url('https://idylladrian.github.io/graphics/Stars(1).gif');
 	width: 30px;
 	height: 84px;
 	margin-left: -130px;
@@ -147,7 +147,7 @@ p {
 }
 
 .graphic.id-3 {
-	background-image: url('https://adrianontheweb.com/graphics/stars2.gif');
+	background-image: url('https://idylladrian.github.io/graphics/stars2.gif');
 	width: 60px;
 	height: 84px;
 	margin-left: -50px;
@@ -156,7 +156,7 @@ p {
 }
 
 .graphic.id-4 {
-	background-image: url('https://adrianontheweb.com/graphics/starsg.gif');
+	background-image: url('https://idylladrian.github.io/graphics/starsg.gif');
 	width: 30px;
 	height: 84px;
 	margin-left: 65px;
@@ -164,7 +164,7 @@ p {
 }
 
 .graphic.id-5 {
-	background-image: url('https://adrianontheweb.com/graphics/twinkystarsred.gif');
+	background-image: url('https://idylladrian.github.io/graphics/twinkystarsred.gif');
 	width: 20px;
 	height: 164px;
 }
@@ -190,7 +190,7 @@ p {
 }
 
 .graphic.id-6 {
-	background-image: url('https://adrianontheweb.com/graphics/flamNEW.gif');
+	background-image: url('https://idylladrian.github.io/graphics/flamNEW.gif');
 	width: 56px;
 	height: 34px;
 	margin-left: 75px;
@@ -199,7 +199,7 @@ p {
 }
 
 .graphic.id-7 {
-	background-image: url('https://adrianontheweb.com/graphics/moon.gif');
+	background-image: url('https://idylladrian.github.io/graphics/moon.gif');
 	width: 100px;
 	height: 100px;
 	margin-left: 150px;
@@ -208,7 +208,7 @@ p {
 }
 
 .graphic.id-8 {
-	background-image: url('https://adrianontheweb.com/graphics/Twinkle.gif');
+	background-image: url('https://idylladrian.github.io/graphics/Twinkle.gif');
 	background-size: 320px 200px;
 	background-repeat: repeat;
 	width: 100%;
@@ -220,7 +220,7 @@ p {
 }
 
 .graphic.id-9 {
-	background-image: url('https://adrianontheweb.com/graphics/x-hikashi3.gif');
+	background-image: url('https://idylladrian.github.io/graphics/x-hikashi3.gif');
 	position: fixed;
 	width: 59px;
 	height: 24px;
@@ -230,7 +230,7 @@ p {
 }
 
 .graphic.id-10 {
-	background-image: url('https://adrianontheweb.com/graphics/fire.gif');
+	background-image: url('https://idylladrian.github.io/graphics/fire.gif');
 	background-repeat: repeat-x;
 	position: relative;
 	width: 100%;
@@ -253,7 +253,7 @@ p {
 	top: 110px;
     left: 10px;
     z-index: 999;
-	background-image: url('https://adrianontheweb.com/graphics/button_mobile.gif');
+	background-image: url('https://idylladrian.github.io/graphics/button_mobile.gif');
 	background-size: 100px 22px;
 }
 
@@ -266,7 +266,7 @@ p {
     top: 110px;
     right: 10px;
     z-index: 999;
-    background-image: url('https://adrianontheweb.com/graphics/ico-audio.png');
+    background-image: url('https://idylladrian.github.io/graphics/ico-audio.png');
     background-size: 40px;
 }
 
@@ -338,7 +338,7 @@ p {
     /* padding: 0.7rem 1rem; */
     /* margin: 0rem 1rem; */
 	white-space: nowrap;
-	background-image: url('https://adrianontheweb.com/graphics/guadalupe-small.png');
+	background-image: url('https://idylladrian.github.io/graphics/guadalupe-small.png');
 	background-position: center;
 	background-size: 200px 70px;
 	background-repeat: repeat-x;
@@ -356,7 +356,7 @@ p {
     /* padding: 0.7rem 1rem; */
     /* margin: 0rem 1rem; */
 	white-space: nowrap;
-	background-image: url('https://adrianontheweb.com/graphics/bendiga.png');
+	background-image: url('https://idylladrian.github.io/graphics/bendiga.png');
 	background-position: center;
 	background-size: 400px 22px;
 	background-repeat: repeat-x;

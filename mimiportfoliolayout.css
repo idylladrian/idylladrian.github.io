@@ -14,7 +14,7 @@ p {
 		color: #FFFFFF; 
 	}
 	
-	cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;
+	cursor: url('https://idylladrian.github.io/graphics/hello-0.gif'), auto;
 	-webkit-ind-animation: cursor 400ms infinite;
 	animation: cursor 800ms infinite;
 
@@ -30,21 +30,21 @@ p {
 }
 
 @-webkit-ind-keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;}
-  15% {cursor: url('https://adrianontheweb.com/graphics/hello-1.gif'), auto;}
-  30% {cursor: url('https://adrianontheweb.com/graphics/hello-2.gif'), auto;}
-  45% {cursor: url('https://adrianontheweb.com/graphics/hello-3.gif'), auto;}
-  60% {cursor: url('https://adrianontheweb.com/graphics/hello-4.gif'), auto;}
-  75% {cursor: url('https://adrianontheweb.com/graphics/hello-5.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/hello-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/hello-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/hello-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/hello-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/hello-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/hello-5.gif'), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;}
-  15% {cursor: url('https://adrianontheweb.com/graphics/hello-1.gif'), auto;}
-  30% {cursor: url('https://adrianontheweb.com/graphics/hello-2.gif'), auto;}
-  45% {cursor: url('https://adrianontheweb.com/graphics/hello-3.gif'), auto;}
-  60% {cursor: url('https://adrianontheweb.com/graphics/hello-4.gif'), auto;}
-  75% {cursor: url('https://adrianontheweb.com/graphics/hello-5.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/hello-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/hello-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/hello-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/hello-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/hello-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/hello-5.gif'), auto;}
 }
 
 .loader-wrapper {
@@ -62,7 +62,7 @@ p {
 
 .loader {
 	display: block;
-	background-image: url('https://adrianontheweb.com/graphics/frog_loader.gif');
+	background-image: url('https://idylladrian.github.io/graphics/frog_loader.gif');
 	width: 100px;
 	height: 60px;
 	position: absolute;
@@ -109,14 +109,14 @@ p {
 }
 
 .graphic.id-0 {
-	background-image : url('https://adrianontheweb.com/graphics/mimiweblogo_index.png');
+	background-image : url('https://idylladrian.github.io/graphics/mimiweblogo_index.png');
 	position: absolute;
 	left: 0px;
 	top: 0px;
 }
 
 .graphic.id-1 {
-	background-image: url('https://adrianontheweb.com/graphics/boldnbrash.png');
+	background-image: url('https://idylladrian.github.io/graphics/boldnbrash.png');
 	background-size: 400px 381px;
 	background-position: center;
 	width: 400px;
@@ -127,7 +127,7 @@ p {
 }
 
 .graphic.id-2 {
-	background-image: url('https://adrianontheweb.com/graphics/belongintrash.png');
+	background-image: url('https://idylladrian.github.io/graphics/belongintrash.png');
 	background-size: 400px 319px;
 	background-position: center;
 	width: 400px;
@@ -138,7 +138,7 @@ p {
 }
 
 .graphic.id-3 {
-	background-image: url('https://adrianontheweb.com/graphics/photo-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/photo-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -149,7 +149,7 @@ p {
 }
 
 .graphic.id-4 {
-	background-image: url('https://adrianontheweb.com/graphics/fruit-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/fruit-framed.png');
 	background-size: 800px 450px;
 	background-position: center;
 	width: 800px;
@@ -160,7 +160,7 @@ p {
 }
 
 .graphic.id-5 {
-	background-image: url('https://adrianontheweb.com/graphics/skele-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/skele-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -171,7 +171,7 @@ p {
 }
 
 .graphic.id-6 {
-	background-image: url('https://adrianontheweb.com/graphics/sugar-babe-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/sugar-babe-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -182,7 +182,7 @@ p {
 }
 
 .graphic.id-7 {
-	background-image: url('https://adrianontheweb.com/graphics/sad-pengu-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/sad-pengu-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -193,7 +193,7 @@ p {
 }
 
 .graphic.id-8 {
-	background-image: url('https://adrianontheweb.com/graphics/oscar-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/oscar-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -204,7 +204,7 @@ p {
 }
 
 .graphic.id-9 {
-	background-image: url('https://adrianontheweb.com/graphics/elly-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/elly-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -215,7 +215,7 @@ p {
 }
 
 .graphic.id-10 {
-	background-image: url('https://adrianontheweb.com/graphics/egg-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/egg-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -226,7 +226,7 @@ p {
 }
 
 .graphic.id-11 {
-	background-image: url('https://adrianontheweb.com/graphics/book_framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/book_framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -237,7 +237,7 @@ p {
 }
 
 .graphic.id-12 {
-	background-image: url('https://adrianontheweb.com/graphics/tims-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/tims-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
@@ -248,7 +248,7 @@ p {
 }
 
 .graphic.id-13 {
-	background-image: url('https://adrianontheweb.com/graphics/kitty-framed.png');
+	background-image: url('https://idylladrian.github.io/graphics/kitty-framed.png');
 	background-size: 400px 225px;
 	background-position: center;
 	width: 400px;
