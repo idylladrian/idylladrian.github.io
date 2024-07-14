@@ -1,0 +1,367 @@
+A:link { 
+	text-decoration: underline; 
+	color: white; 
+}
+A:visited { 
+	text-decoration: underline; 
+	color:#000000; 
+}
+
+A:active { 
+	text-decoration: underline; 
+	color:#000000; 
+}
+
+A:hover { 
+	text-decoration: underline; 
+	color:#000000;
+}
+
+h1 {
+	font-family: arial;
+	color: #6600ff 
+}
+
+p {
+	font-family: arial;
+	color: #6600ff 
+}
+
+#index-page {
+	h1 {
+		font-family: arial, sans-serif;
+		color: #FFFFFF; 
+	}
+	
+	cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;
+	-webkit-ind-animation: cursor 400ms infinite;
+	animation: cursor 400ms infinite;
+
+	p {
+		font-family: arial, sans-serif;
+		color: #FFFFFF; 
+	}
+
+	background: #00018E;
+	background-image: url('https://adrianontheweb.com/graphics/index_background.jpg');
+	background-size: 400px 1000px;
+	weight: 100px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position-x: left;
+	background-position-y: top;
+	background-attachment: fixed;
+	
+	image-rendering: pixelated;
+	/* overflow: hidden; */
+}
+
+@-webkit-ind-keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;}
+  100% {cursor: url('https://adrianontheweb.com/graphics/hottie-1.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/hottie-0.gif'), auto;}
+  100% {cursor: url('https://adrianontheweb.com/graphics/hottie-1.gif'), auto;}
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center.block1 {
+	background: rgba(245, 66, 144, 0.3);
+	text-align: center;
+	vertical-align: center;
+	border: 3px solid white;
+	padding-bottom: 20px;
+	width: 400px;
+}
+
+#head-bloc {
+	height: 80px;
+}
+
+#navigation-panel {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	float: none;
+	max-width: 1920px;
+	width: 400px;
+}
+
+#welcome-text {
+	left: 50%;
+}
+
+#hot-not-table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#nav-table {
+	vertical-align: top;
+	width: 400px;
+}
+
+.graphic {
+	display: block;
+	position: absolute;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+.graphic.id-1 {
+	background-image: url('https://adrianontheweb.com/graphics/stars.gif');
+	width: 20px;
+	height: 84px;
+	z-index: 999;
+}
+
+.graphic.id-1.a {
+	margin-left: -325px;
+	top: 200px;
+}
+
+.graphic.id-1.b {
+	margin-left: -235px;
+	top: 260px;
+}
+
+.graphic.id-2 {
+	background-image: url('https://adrianontheweb.com/graphics/Stars(1).gif');
+	width: 30px;
+	height: 84px;
+	margin-left: -130px;
+	top: 230px;
+	z-index: 999;
+}
+
+.graphic.id-3 {
+	background-image: url('https://adrianontheweb.com/graphics/stars2.gif');
+	width: 60px;
+	height: 84px;
+	margin-left: -50px;
+	top: 130px;
+	z-index: 999;
+}
+
+.graphic.id-4 {
+	background-image: url('https://adrianontheweb.com/graphics/starsg.gif');
+	width: 30px;
+	height: 84px;
+	margin-left: 65px;
+	top: 240px;
+}
+
+.graphic.id-5 {
+	background-image: url('https://adrianontheweb.com/graphics/twinkystarsred.gif');
+	width: 20px;
+	height: 164px;
+}
+
+.graphic.id-5.a {
+	margin-left: 400px;
+	top: 240px;
+}
+
+.graphic.id-5.b {
+	margin-left: 392px;
+	top: 200px;
+}
+
+.graphic.id-5.c {
+	margin-left: 408px;
+	top: 200px;
+}
+
+.graphic.id-5.d {
+	margin-left: 402px;
+	top: 155px;
+}
+
+.graphic.id-6 {
+	background-image: url('https://adrianontheweb.com/graphics/flamNEW.gif');
+	width: 56px;
+	height: 34px;
+	margin-left: 75px;
+	left: 50%;
+	top: 170px;
+}
+
+.graphic.id-7 {
+	background-image: url('https://adrianontheweb.com/graphics/moon.gif');
+	width: 100px;
+	height: 100px;
+	margin-left: 150px;
+	left: 50%;
+	top: 120px;
+}
+
+.graphic.id-8 {
+	background-image: url('https://adrianontheweb.com/graphics/Twinkle.gif');
+	background-size: 320px 200px;
+	background-repeat: repeat;
+	width: 100%;
+	height: 300px;
+	margin-left: -50%;
+	left: 50%;
+	top: 100px;
+	z-index: -1;
+}
+
+.graphic.id-9 {
+	background-image: url('https://adrianontheweb.com/graphics/x-hikashi3.gif');
+	position: fixed;
+	width: 59px;
+	height: 24px;
+	margin-top: -30px;
+	left: 95%;
+	top: 100%;
+}
+
+.graphic.id-10 {
+	background-image: url('https://adrianontheweb.com/graphics/fire.gif');
+	background-repeat: repeat-x;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	left: 0px;
+}
+
+@media only screen and (max-width: 1150px) {
+    .graphic.id-9 {
+        display: none;
+    }
+}
+
+.btn-mobile {
+	width: 100px;
+    height: 22px;
+    display: block;
+    cursor: pointer;
+	position: absolute;
+	top: 110px;
+    left: 10px;
+    z-index: 999;
+	background-image: url('https://adrianontheweb.com/graphics/button_mobile.gif');
+	background-size: 100px 22px;
+}
+
+.btn-audio {
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    z-index: 999;
+    background-image: url('https://adrianontheweb.com/graphics/ico-audio.png');
+    background-size: 40px;
+}
+
+.btn-audio.is-inactive {
+    background-position: 0 -40px;
+    background-position-x: 0px;
+    background-position-y: -40px;
+}
+
+.btn-audio.is-active {
+    background-position: 0 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+#container {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+	top: 0px;
+	left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    color: #fff;
+}
+
+#container2 {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+	top: 70px;
+	left: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    color: #fff;
+}
+
+#container .scroll {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	width: 210%;
+    white-space: nowrap;
+    animation: loop 20s linear infinite;
+}
+
+#container2 .scroll2 {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	width: 212%;
+    white-space: nowrap;
+    animation: loop 18s linear infinite;
+}
+
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-50%);}
+}
+.guadalupe-roll {
+    display: flex;
+    align-items: center;
+    color: #e2e8f0;
+    background-color: #152c41;
+    /* padding: 0.7rem 1rem; */
+    /* margin: 0rem 1rem; */
+	white-space: nowrap;
+	background-image: url('https://adrianontheweb.com/graphics/guadalupe-small.png');
+	background-position: center;
+	background-size: 200px 70px;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+
+.gracias-roll {
+	display: flex;
+	position: absolute;
+    color: #e2e8f0;
+    background-color: #000000;
+    /* padding: 0.7rem 1rem; */
+    /* margin: 0rem 1rem; */
+	white-space: nowrap;
+	background-image: url('https://adrianontheweb.com/graphics/bendiga.png');
+	background-position: center;
+	background-size: 400px 22px;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+}

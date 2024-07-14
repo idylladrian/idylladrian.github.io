@@ -1,0 +1,259 @@
+h1 {
+	font-family: arial;
+	color: #6600ff 
+}
+
+p {
+	font-family: arial;
+	color: #6600ff 
+}
+
+#portfolio-page {
+	h1 {
+		font-family: arial, sans-serif;
+		color: #FFFFFF; 
+	}
+	
+	cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;
+	-webkit-ind-animation: cursor 400ms infinite;
+	animation: cursor 800ms infinite;
+
+	p {
+		font-family: arial, sans-serif;
+		color: #000000; 
+	}
+
+	background: #fff8e3;
+	
+	image-rendering: pixelated;
+	/* overflow: hidden; */
+}
+
+@-webkit-ind-keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;}
+  15% {cursor: url('https://adrianontheweb.com/graphics/hello-1.gif'), auto;}
+  30% {cursor: url('https://adrianontheweb.com/graphics/hello-2.gif'), auto;}
+  45% {cursor: url('https://adrianontheweb.com/graphics/hello-3.gif'), auto;}
+  60% {cursor: url('https://adrianontheweb.com/graphics/hello-4.gif'), auto;}
+  75% {cursor: url('https://adrianontheweb.com/graphics/hello-5.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/hello-0.gif'), auto;}
+  15% {cursor: url('https://adrianontheweb.com/graphics/hello-1.gif'), auto;}
+  30% {cursor: url('https://adrianontheweb.com/graphics/hello-2.gif'), auto;}
+  45% {cursor: url('https://adrianontheweb.com/graphics/hello-3.gif'), auto;}
+  60% {cursor: url('https://adrianontheweb.com/graphics/hello-4.gif'), auto;}
+  75% {cursor: url('https://adrianontheweb.com/graphics/hello-5.gif'), auto;}
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.loader {
+	display: block;
+	background-image: url('https://adrianontheweb.com/graphics/frog_loader.gif');
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 75px;
+	animation: loader 0.9s infinite ease;
+}
+
+@keyframes loader {
+	0% { transform: translateX(0px);}
+	7% { transform: translateX(-30px);}
+	14% { transform: translateX(-50px);}
+	21% { transform: translateX(-80px);}
+	28% { transform: translateX(-110px);}
+	35% { transform: translateX(-120px);}
+	42% { transform: translateX(-130px);}
+	49% { transform: translateX(-140px);}
+	56% { transform: translateX(-150px);}
+	63% { transform: translateX(-150px);}
+	70% { transform: translateX(-150px);}
+	77% { transform: translateX(-150px);}
+	84% { transform: translateX(-150px);}
+	91% { transform: translateX(-60px);}
+	100% { transform: translateX(0px);}
+}
+
+#head-bloc {
+	height: 550px;
+}
+
+.year-range {
+	height: 600px;
+	position: relative;
+	text-align: left center;
+}
+
+.graphic {
+	display: block;
+	position: absolute;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+.graphic.id-0 {
+	background-image : url('https://adrianontheweb.com/graphics/mimiweblogo_index.png');
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.graphic.id-1 {
+	background-image: url('https://adrianontheweb.com/graphics/boldnbrash.png');
+	background-size: 400px 381px;
+	background-position: center;
+	width: 400px;
+	height: 381px;
+	z-index: 999;
+	margin-left: -400px;
+	top: 100px;
+}
+
+.graphic.id-2 {
+	background-image: url('https://adrianontheweb.com/graphics/belongintrash.png');
+	background-size: 400px 319px;
+	background-position: center;
+	width: 400px;
+	height: 381px;
+	z-index: 999;
+	margin-left: 10px;
+	top: 120px;
+}
+
+.graphic.id-3 {
+	background-image: url('https://adrianontheweb.com/graphics/photo-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -400px;
+	top: 0px;
+}
+
+.graphic.id-4 {
+	background-image: url('https://adrianontheweb.com/graphics/fruit-framed.png');
+	background-size: 800px 450px;
+	background-position: center;
+	width: 800px;
+	height: 450px;
+	z-index: 999;
+	margin-left: -100px;
+	top: 0px;
+}
+
+.graphic.id-5 {
+	background-image: url('https://adrianontheweb.com/graphics/skele-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -600px;
+	top: 0px;
+}
+
+.graphic.id-6 {
+	background-image: url('https://adrianontheweb.com/graphics/sugar-babe-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -350px;
+	top: 0px;
+}
+
+.graphic.id-7 {
+	background-image: url('https://adrianontheweb.com/graphics/sad-pengu-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -500px;
+	top: 200px;
+}
+
+.graphic.id-8 {
+	background-image: url('https://adrianontheweb.com/graphics/oscar-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: 200px;
+	top: 0px;
+}
+
+.graphic.id-9 {
+	background-image: url('https://adrianontheweb.com/graphics/elly-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: 300px;
+	top: 220px;
+}
+
+.graphic.id-10 {
+	background-image: url('https://adrianontheweb.com/graphics/egg-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: 0;
+	top: 400px;
+}
+
+.graphic.id-11 {
+	background-image: url('https://adrianontheweb.com/graphics/book_framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -40px;
+	top: 0px;
+}
+
+.graphic.id-12 {
+	background-image: url('https://adrianontheweb.com/graphics/tims-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -75px;
+	top: 200px;
+}
+
+.graphic.id-13 {
+	background-image: url('https://adrianontheweb.com/graphics/kitty-framed.png');
+	background-size: 400px 225px;
+	background-position: center;
+	width: 400px;
+	height: 225px;
+	z-index: 999;
+	margin-left: -200px;
+	top: 0px;
+}

@@ -1,0 +1,259 @@
+h1 {
+	font-family: arial;
+	color: white;
+}
+
+p {
+	font-family: arial;
+	color: white; 
+}
+
+#blog-page {
+	h1 {
+		font-family: arial, sans-serif;
+		color: #FFFFFF; 
+	}
+	
+	cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;
+	-webkit-ind-animation: cursor 3200ms infinite;
+	animation: cursor 3200ms infinite;
+
+	p {
+		font-family: arial, sans-serif;
+		color: white;
+	}
+
+	background: #000000;
+	background-image: url('https://adrianontheweb.com/graphics/dark-academia.png');
+	background-size: 1152px 576px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-attachment: fixed;
+	/* text-align: center; */
+	
+	image-rendering: pixelated;
+	overflow: hidden;
+}
+
+@-webkit-ind-keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://adrianontheweb.com/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://adrianontheweb.com/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://adrianontheweb.com/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://adrianontheweb.com/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://adrianontheweb.com/graphics/pencil-5.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('https://adrianontheweb.com/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://adrianontheweb.com/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://adrianontheweb.com/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://adrianontheweb.com/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://adrianontheweb.com/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://adrianontheweb.com/graphics/pencil-5.gif'), auto;}
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.loader {
+	display: block;
+	background-image: url('https://adrianontheweb.com/graphics/frog_loader.gif');
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 75px;
+	animation: loader 0.9s infinite ease;
+}
+
+@keyframes loader {
+	0% { transform: translateX(0px);}
+	7% { transform: translateX(-30px);}
+	14% { transform: translateX(-50px);}
+	21% { transform: translateX(-80px);}
+	28% { transform: translateX(-110px);}
+	35% { transform: translateX(-120px);}
+	42% { transform: translateX(-130px);}
+	49% { transform: translateX(-140px);}
+	56% { transform: translateX(-150px);}
+	63% { transform: translateX(-150px);}
+	70% { transform: translateX(-150px);}
+	77% { transform: translateX(-150px);}
+	84% { transform: translateX(-150px);}
+	91% { transform: translateX(-60px);}
+	100% { transform: translateX(0px);}
+}
+
+.head-bloc {
+	height: 50px;
+}
+
+.table-formatting {
+	margin-left: auto;
+	margin-right: auto;
+	
+	td {
+		text-align: center;
+		vertical-align: bottom;
+		width: 200px;
+		height: 150px;
+	}
+}
+
+.graphic {
+	display: block;
+	position: absolute;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	z-index: 999;
+}
+
+.graphic.id-0 {
+	background-image : url('https://adrianontheweb.com/graphics/candle0.gif');
+	position: absolute;
+	margin-left: 575px;
+	top: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-1 {
+	background-image : url('https://adrianontheweb.com/graphics/candle1.gif');
+	position: absolute;
+	margin-left: -650px;
+	top: 150px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-2 {
+	background-image : url('https://adrianontheweb.com/graphics/candle2.gif');
+	position: absolute;
+	margin-left: 600px;
+	top: 200px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-3 {
+	background-image : url('https://adrianontheweb.com/graphics/candle3.gif');
+	position: absolute;
+	margin-left: -700px;
+	top: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-4 {
+	background-image : url('https://adrianontheweb.com/graphics/candle4.gif');
+	position: absolute;
+	margin-left: -700px;
+	top: 300px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-5 {
+	background-image : url('https://adrianontheweb.com/graphics/candle5.gif');
+	position: absolute;
+	margin-left: 650px;
+	top: 250px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-6 {
+	background-image : url('https://adrianontheweb.com/graphics/candle6.gif');
+	position: absolute;
+	margin-left: 625px;
+	top: 350px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-7 {
+	background-image : url('https://adrianontheweb.com/graphics/candle7.gif');
+	position: absolute;
+	margin-left: -625px;
+	top: 400px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-8 {
+	background-image : url('https://adrianontheweb.com/graphics/candle8.gif');
+	position: absolute;
+	margin-left: -600px;
+	top: 100px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-9 {
+	background-image : url('https://adrianontheweb.com/graphics/candle9.gif');
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 235px;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-10 {
+	background-image : url('https://adrianontheweb.com/graphics/candle10.gif');
+	position: absolute;
+	margin-left: -725px;
+	top: 600px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-11 {
+	background-image : url('https://adrianontheweb.com/graphics/candle11.gif');
+	position: absolute;
+	margin-left: 600px;
+	top: 650px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-12 {
+	background-image : url('https://adrianontheweb.com/graphics/candle12.gif');
+	position: absolute;
+	margin-left: 580px;
+	top: 500px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-13 {
+	background-image : url('https://adrianontheweb.com/graphics/candle13.gif');
+	position: absolute;
+	margin-left: -700px;
+	top: 550px;
+	width: 200px;
+	height: 200px;
+}
+
+.graphic.id-14 {
+	background-image : url('https://adrianontheweb.com/graphics/candle14.gif');
+	position: absolute;
+	margin-left: 675px;
+	top: 550px;
+	width: 200px;
+	height: 200px;
+}
