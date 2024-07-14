@@ -31,12 +31,12 @@ function printmsg() {
     // to generated captcha or not
     if (usr_input == captcha.innerHTML) {
         let s = document.getElementById("key")
-            .innerHTML = "Matched";
+            .innerHTML = "idylladrian@gmail.com";
         generate();
     }
     else {
         let s = document.getElementById("key")
-            .innerHTML = "not Matched";
+            .innerHTML = "Not matched. Try again.";
         generate();
     }
 }
