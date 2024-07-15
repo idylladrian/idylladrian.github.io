@@ -1,13 +1,32 @@
 <html>
 	<header>
-		<link rel="stylesheet" href="https://idylladrian.github.io/css/about-me.css" type="text/css" media="all">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>About Me-me</title>
+		<!-- <link rel="stylesheet" href="https://idylladrian.github.io/css/about-me.css" type="text/css" media="all"> -->
+		<link rel="stylesheet" href="file:///C:/Users/idyll/OneDrive/Documents/idylladrian.github.io/css/about-me.css" type="text/css" media="all">
+		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+		</script>
 	</header>
-	<body>
-		<div id="in-progress">
+	<body id="about-page">
+		<div id="left"></div>
+		<div id="content">
+			<h1>About</h1>
+		</div>
+		<div id="right"></div>
+		<!-- <div id="in-progress">
 			<div id="progress-header"></div>
 			<p>This part of the website is still under construction.</p>
 			<p>Click on gengar to return back to the homepage</p>
 			<a href="https://idylladrian.github.io/index.html"><img id="sprite" src="https://idylladrian.github.io/graphics/gengar_sprite.gif"></a>
-		</div>
+		</div> -->
 	</body>
 </html>
