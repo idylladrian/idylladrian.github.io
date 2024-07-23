@@ -41,16 +41,20 @@ p {
 		font-family: arial, sans-serif;
 		color: #FFFFFF; 
 	}
-
+	
 	background: #00018E;
 	background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
-	background-size: 400px 1000px;
+/* 	background-size: 400px 1000px;
 	weight: 100px;
 	height: 200px;
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: top;
-	background-attachment: scroll;
+	background-attachment: scroll; */
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+	background-attachment: fixed;
 	
 	image-rendering: pixelated;
 	/* overflow: hidden; */
