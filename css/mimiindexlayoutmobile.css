@@ -55,6 +55,7 @@ p {
 	background-position-x: center;
 	background-position-y: top;
 	background-attachment: fixed;
+	margin: 10px;
 	
 	max-width: 100%;
     overflow-x: hidden;
