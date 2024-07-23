@@ -51,7 +51,7 @@ p {
 	background-position-x: left;
 	background-position-y: top;
 	background-attachment: scroll; */
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-position-x: center;
 	background-position-y: top;
 	background-attachment: fixed;
@@ -102,7 +102,7 @@ p {
 	z-index: 0;
 	float: none;
 	max-width: 1920px;
-	width: 400px;
+	width: 100%;
 }
 
 #welcome-text {
