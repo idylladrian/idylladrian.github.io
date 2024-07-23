@@ -51,7 +51,8 @@ p {
 	background-position-x: left;
 	background-position-y: top;
 	background-attachment: scroll; */
-	background-repeat: repeat-y;
+	height: 200%;
+	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y: top;
 	background-attachment: fixed;
