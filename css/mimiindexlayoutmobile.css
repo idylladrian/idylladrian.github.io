@@ -86,7 +86,7 @@ p {
 	vertical-align: center;
 	border: 3px solid white;
 	padding-bottom: 20px;
-	width: 90%;
+	width: 300px;
 }
 
 #head-bloc {
@@ -102,8 +102,8 @@ p {
 	margin-right: auto;
 	z-index: 0;
 	float: none;
-	max-width: 1920px;
-	width: 100%;
+	max-width: 1000px;
+	width: 300px;
 }
 
 #welcome-text {
@@ -114,12 +114,11 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	width: 90%;
 }
 
 #nav-table {
 	vertical-align: top;
-	width: 400px;
+	width: 300px;
 }
 
 .graphic {

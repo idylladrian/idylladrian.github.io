@@ -1,7 +1,6 @@
 @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+and (min-device-width: 1200px) 
+and (-webkit-min-device-pixel-ratio: 1) {
 	A:link { 
 		text-decoration: underline; 
 		color: white; 
@@ -133,7 +132,7 @@
 		vertical-align: center;
 		border: 3px solid white;
 		padding-bottom: 20px;
-		width: 1000px;
+		width: 300px;
 	}
 
 	#head-bloc {
@@ -298,7 +297,43 @@
 			display: none;
 		}
 	}
-
+	
+	@media only screen and (max-width: 1050px) {
+		.graphic.id-1.a {
+			display: none;
+		}
+		.graphic.id-1.b {
+			display: none;
+		}
+		.graphic.id-2 {
+			display: none;
+		}
+		.graphic.id-3 {
+			display: none;
+		}
+		.graphic.id-4 {
+			display: none;
+		}
+		.graphic.id-5.a {
+			display: none;
+		}
+		.graphic.id-5.b {
+			display: none;
+		}
+		.graphic.id-5.c {
+			display: none;
+		}
+		.graphic.id-5.d {
+			display: none;
+		}
+		.graphic.id-6 {
+			display: none;
+		}
+		.graphic.id-7 {
+			display: none;
+		}
+	}
+	
 	.btn-mobile {
 		width: 100px;
 		height: 22px;
