@@ -26,38 +26,63 @@
 		</div>
 		<div id="left">
 		</div>
-		<div id="bodyody">
-			<div onload="generate">
-				<div id="user-input" class="inline">
-					<input type="text" 
-						id="submit" 
-						placeholder="Captcha code" />
-				</div>
+		<!-- <div id="bodyody"> -->
+			<!-- <div onload="generate"> -->
+				<!-- <div id="user-input" class="inline"> -->
+					<!-- <input type="text"  -->
+						<!-- id="submit"  -->
+						<!-- placeholder="Captcha code" /> -->
+				<!-- </div> -->
 
-				<div id="refresh" class="inline" onclick="generate()">
-					<i class="fas fa-sync"></i>
-				</div>
+				<!-- <div id="refresh" class="inline" onclick="generate()"> -->
+					<!-- <i class="fas fa-sync"></i> -->
+				<!-- </div> -->
 
-				<div id="image" 
-					class="inline" 
-					selectable="False">
-				</div style="position: absolute; left: 50%; top: 50%">
-				<input type="submit" 
-				id="btn" 
-				onclick="printmsg()" />
-				<p id="key"></p>
-			</div>
-		</div>
+				<!-- <div id="image"  -->
+					<!-- class="inline"  -->
+					<!-- selectable="False"> -->
+				<!-- </div style="position: absolute; left: 50%; top: 50%"> -->
+				<!-- <input type="submit"  -->
+				<!-- id="btn"  -->
+				<!-- onclick="printmsg()" /> -->
+				<!-- <p id="key"></p> -->
+			<!-- </div> -->
+		<!-- </div> -->
+		<?php 
+			// if "email" variable is filled out, send email
+			if (isset($_REQUEST['email'])) {
+
+			//Email information
+			$to = "idylladrian@gmail.com";
+			$email = $_REQUEST['email'];
+			$subject = $_REQUEST['subject'];
+			$message = $_REQUEST['message'];
+
+			//Send email
+			mail($to, $subject, $message, "From:" . $email);
+
+			//Email response
+			echo "Thanks for reaching out!"; }
+
+			//if "email" variable is not filled out, display the form
+			else { ?>
+			<form method="post">
+			Email: <input name="email" type="text" />
+			Subject: <input name="subject" type="text" />
+			Message: <textarea name="message" rows="15" cols="40"></textarea>
+			<input type="submit" value="Submit" />
+			</form>
+		<?php } ?>
 		<div id="right">
 		</div>
 		<div id="footer">
 		</div>
 		
-		<div id="in-progress">
-			<div id="progress-header"></div>
-			<p>This part of the website is still under construction.</p>
-			<p>Click on gengar to return back to the homepage</p>
-			<a href="https://idylladrian.github.io/index.html"><img id="sprite" src="https://idylladrian.github.io/graphics/gengar_sprite.gif"></a>
-		</div>
+		<!-- <div id="in-progress"> -->
+			<!-- <div id="progress-header"></div> -->
+			<!-- <p>This part of the website is still under construction.</p> -->
+			<!-- <p>Click on gengar to return back to the homepage</p> -->
+			<!-- <a href="https://idylladrian.github.io/index.html"><img id="sprite" src="https://idylladrian.github.io/graphics/gengar_sprite.gif"></a> -->
+		<!-- </div> -->
 	</body>
 </html>
