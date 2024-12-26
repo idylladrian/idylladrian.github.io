@@ -215,9 +215,9 @@ body::before {
 	background-image: url('https://idylladrian.github.io/graphics/flamNEW.gif');
 	width: 56px;
 	height: 34px;
-	margin-left: 75px;
+	/* margin-left: 75px; */
 	left: 50%;
-	top: 170px;
+	top: 100px;
 }
 
 .graphic.id-7 {
