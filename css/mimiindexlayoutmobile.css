@@ -55,7 +55,7 @@ p {
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-position-y: top;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	margin: 10px;
 	
 	max-width: 100%;
@@ -73,6 +73,19 @@ p {
 @keyframes cursor {
   0% {cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;}
   100% {cursor: url('https://idylladrian.github.io/graphics/hottie-1.gif'), auto;}
+}
+
+body::before {
+      content: "";
+      position: fixed; /* Keeps it fixed even on iOS */
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('https://idylladrian.github.io/graphics/index_background.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      z-index: -1; /* Pushes it behind everything else */
 }
 
 .center {
