@@ -151,10 +151,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		text-decoration: underline; 
 		color: white; 
 	}
-	A:visited { 
-		text-decoration: underline; 
-		color:#7700ff; 
-	}
+	/* A:visited {  */
+		/* text-decoration: underline;  */
+		/* color:#7700ff;  */
+	/* } */
 
 	A:active { 
 		text-decoration: underline; 
@@ -618,13 +618,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		background-position: center; /* Center the image */
 		
 		border: 3px solid white;
+		
+		/* p { */
+			/* color:  */
+		/* } */
 	}
 	
 	.seasonal-text {
 		font-family: "chaparral-pro", serif;
 		font-weight: 400;
 		font-style: normal;
-		color: ##0000ff;
+		color: #0000ff;
 		margin-top: 0px;
 	}
 
