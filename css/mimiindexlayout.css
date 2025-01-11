@@ -29,7 +29,7 @@
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 12px;
+	font-size: 14px;
 	color: #FFFFFF;
 	text-align: center; 
 	vertical-align: middle; 
@@ -90,10 +90,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		-webkit-ind-animation: cursor 400ms infinite;
 		animation: cursor 400ms infinite;
 
-		p {
-			font-family: arial, sans-serif;
-			color: #FFFFFF; 
-		}
+		/* p { */
+			/* font-family: arial, sans-serif; */
+			/* color: #FFFFFF;  */
+		/* } */
 
 		background: #00018E;
 		background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
@@ -183,6 +183,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		border: 3px solid white;
 		padding-bottom: 20px;
 		width: 1000px;
+		
+		font-family: "cc-flame-on-nova", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 14px;
+		color: #FFFFFF;
 	}
 
 	#head-bloc {
