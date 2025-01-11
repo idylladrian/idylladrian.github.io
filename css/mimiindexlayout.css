@@ -607,6 +607,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.seasonal {
 		margin-left: auto;
 		margin-right: auto;
+		background: rgba(245, 66, 144, 0.3);
 		
 		padding: 100px;
 		width: 800px; /* Set width of the <div> */
