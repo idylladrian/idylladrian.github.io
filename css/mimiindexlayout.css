@@ -613,7 +613,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		height: 800px; /* Set height of the <div> */
 		background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 		background-repeat: no-repeat; /* Prevent tiling of the image */
-		background-size: cover; /* Ensure the image covers the <div> */
+		background-size: 800px 800px; /* Ensure the image covers the <div> */
 		background-position: center; /* Center the image */
 		
 		border: 3px solid white;
