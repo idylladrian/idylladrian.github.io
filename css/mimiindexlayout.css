@@ -152,10 +152,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		text-decoration: underline; 
 		color: white; 
 	}
-	/* A:visited {  */
-		/* text-decoration: underline;  */
-		/* color:#7700ff;  */
-	/* } */
 	
 	A:visited { 
 		text-decoration: underline; 
