@@ -514,6 +514,28 @@ body::before {
 	top: 0px;
 }
 
+.seasonal {
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(245, 66, 144, 0.3);
+	
+	padding: 200px;
+	padding-top: 400px;
+	width: 600px; /* Set width of the <div> */
+	height: 600px; /* Set height of the <div> */
+	background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
+	background-repeat: no-repeat; /* Prevent tiling of the image */
+	background-size: 800px 800px; /* Ensure the image covers the <div> */
+	background-position: center; /* Center the image */
+	
+	border: 3px solid white;
+
+}
+
+.center-block-text {
+	color: #FFFFFF;
+}
+
 .seasonal-text {
 	font-family: "chaparral-pro", serif;
 	font-weight: 400;
@@ -523,7 +545,7 @@ body::before {
 }
 
 .virgen-stamp {
-	width: 100px;
+	width: 30px;
 	display: block; /* Ensures the image behaves like a block element */
 	margin-left: auto;
 	margin-right: auto;
