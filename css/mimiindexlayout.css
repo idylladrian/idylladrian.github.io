@@ -1,6 +1,7 @@
 @import url('https://use.typekit.net/qkd0qog.css');
 
 .text-pixel-arcade {
+	display: block;
 	font-family: "cc-pixel-arcade-cartridge", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -11,6 +12,7 @@
 }
 
 .text-flame-nova {
+	display: block;
 	font-family: "cc-flame-on-nova", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -21,6 +23,7 @@
 }
 
 .text-myth-fables {
+	display: block;
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -31,6 +34,7 @@
 }
 
 .text-monstrocity {
+	display: block;
 	font-family: "cc-monstrosity-hide", sans-serif;
 	font-weight: 500;
 	font-style: normal;
