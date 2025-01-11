@@ -48,6 +48,102 @@
 	padding: 0;
 }
 
+.Chaparral-Pro-Regular {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
 @media screen 
 and (min-device-width: 1200px) 
 and (-webkit-min-device-pixel-ratio: 1) {
@@ -57,17 +153,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 	A:visited { 
 		text-decoration: underline; 
-		color:#000000; 
+		color:#7700ff; 
 	}
 
 	A:active { 
 		text-decoration: underline; 
-		color:#000000; 
+		color: white; 
 	}
 
 	A:hover { 
 		text-decoration: underline; 
-		color:#000000;
+		color:#0000ff;
 	}
 
 	h1 {
@@ -76,8 +172,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 
 	p {
-		font-family: arial;
-		color: #6600ff 
+		font-family: "chaparral-pro", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #FFFFFF; 
 	}
 
 	#index-page {
@@ -92,11 +190,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;
 		-webkit-ind-animation: cursor 400ms infinite;
 		animation: cursor 400ms infinite;
-
-		/* p { */
-			/* font-family: arial, sans-serif; */
-			/* color: #FFFFFF;  */
-		/* } */
 
 		background: #00018E;
 		background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
