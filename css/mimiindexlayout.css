@@ -4,24 +4,40 @@
 	font-family: "cc-pixel-arcade-cartridge", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
 }
 
 .text-flame-nova {
 	font-family: "cc-flame-on-nova", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
 }
 
 .text-myth-fables {
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
 }
 
 .text-monstrocity {
 	font-family: "cc-monstrosity-hide", sans-serif;
 	font-weight: 500;
 	font-style: normal;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
 }
 
 @media screen 
