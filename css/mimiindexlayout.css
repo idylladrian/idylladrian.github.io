@@ -605,12 +605,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 	
 	.seasonal {
+		margin-left: auto;
+		margin-right: auto;
+		
 		width: 1000px; /* Set width of the <div> */
 		height: 1000px; /* Set height of the <div> */
 		background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 		background-repeat: no-repeat; /* Prevent tiling of the image */
 		background-size: cover; /* Ensure the image covers the <div> */
 		background-position: center; /* Center the image */
+		
+		border: 3px solid white;
 	}
 
 }
