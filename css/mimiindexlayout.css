@@ -155,6 +155,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		/* text-decoration: underline;  */
 		/* color:#7700ff;  */
 	/* } */
+	
+	A:visited { 
+		text-decoration: underline; 
+		color: white; 
+	}
 
 	A:active { 
 		text-decoration: underline; 
@@ -281,6 +286,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		border: 3px solid white;
 		/* padding-bottom: 20px; */
 		width: 1000px;
+		color: white;
 	}
 
 	#head-bloc {
@@ -618,10 +624,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		background-position: center; /* Center the image */
 		
 		border: 3px solid white;
-		
-		/* p { */
-			/* color:  */
-		/* } */
+
 	}
 	
 	.seasonal-text {
