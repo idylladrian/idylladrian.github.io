@@ -615,9 +615,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		margin-right: auto;
 		background: rgba(245, 66, 144, 0.3);
 		
-		padding: 100px;
-		width: 800px; /* Set width of the <div> */
-		height: 800px; /* Set height of the <div> */
+		padding: 200px;
+		width: 600px; /* Set width of the <div> */
+		height: 600px; /* Set height of the <div> */
 		background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 		background-repeat: no-repeat; /* Prevent tiling of the image */
 		background-size: 800px 800px; /* Ensure the image covers the <div> */
