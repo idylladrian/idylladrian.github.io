@@ -617,6 +617,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		background: rgba(245, 66, 144, 0.3);
 		
 		padding: 200px;
+		padding-top: 400px;
 		width: 600px; /* Set width of the <div> */
 		height: 600px; /* Set height of the <div> */
 		background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
@@ -638,8 +639,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		font-style: normal;
 		color: #0000ff;
 		margin-top: 0px;
-		vertical-align: center;
-		align: center;
 	}
 	
 	.virgen-stamp {
