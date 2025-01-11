@@ -1,7 +1,7 @@
 @import url('https://use.typekit.net/qkd0qog.css');
 
 .text-pixel-arcade {
-	display: block;
+	/* display: block; */
 	font-family: "cc-pixel-arcade-cartridge", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -23,7 +23,7 @@
 }
 
 .text-myth-fables {
-	display: block;
+	/* display: block; */
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -34,7 +34,7 @@
 }
 
 .text-monstrocity {
-	display: block;
+	/* display: block; */
 	font-family: "cc-monstrosity-hide", sans-serif;
 	font-weight: 500;
 	font-style: normal;
