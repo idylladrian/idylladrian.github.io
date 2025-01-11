@@ -185,7 +185,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 			font-weight: 400;
 			font-style: normal;
 			font-size: 65px;
-			color: #FFFFFF;
+			/* color: #FFFFFF; */
 			margin-bottom: 0px;
 		}
 		
@@ -618,14 +618,14 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		background-position: center; /* Center the image */
 		
 		border: 3px solid white;
-		
-		p {
-			font-family: "chaparral-pro", serif;
-			font-weight: 400;
-			font-style: normal;
-			color: ##0000ff;
-			margin-top: 0px;
-		}
+	}
+	
+	.seasonal-text {
+		font-family: "chaparral-pro", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: ##0000ff;
+		margin-top: 0px;
 	}
 
 }
