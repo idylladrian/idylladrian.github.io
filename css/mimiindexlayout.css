@@ -627,12 +627,18 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 	}
 	
+	.center-block-text {
+		color: #FFFFFF;
+	}
+	
 	.seasonal-text {
 		font-family: "chaparral-pro", serif;
 		font-weight: 400;
 		font-style: normal;
 		color: #0000ff;
 		margin-top: 0px;
+		vertical-align: center;
+		align: center;
 	}
 
 }
