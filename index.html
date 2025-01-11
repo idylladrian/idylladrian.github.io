@@ -7,19 +7,27 @@
 		<link rel="stylesheet" href="https://idylladrian.github.io/css/mimiindexlayout.css" as="style">
 		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
 		
-		<!-- <script> -->
-					<!-- // Check if the user is on a mobile device -->
-			<!-- function isMobile() { -->
-			  <!-- return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent); -->
-			<!-- } -->
+		<script>
+					// Check if the user is on a mobile device
+			function isMobile() {
+			  return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+			}
 
-			<!-- // Redirect based on device type -->
-			<!-- window.onload = function () { -->
-			  <!-- if (isMobile()) { -->
-				<!-- window.location.href = "https://adrianontheweb.net/index_mobile.html"; // Replace with your mobile URL -->
-			  <!-- } -->
-			<!-- }; -->
-		<!-- </script> -->
+			// Redirect based on device type
+			window.onload = function () {
+			  if (isMobile()) {
+				const link = document.createElement('link');
+				link.rel = "stylesheet";
+				link.href = "https://idylladrian.github.io/css/mimiindexlayoutmobile.css";
+				document.head.appendChild(link);
+			  } else {
+				const link = document.createElement('link');
+				link.rel = "stylesheet";
+				link.href = "https://idylladrian.github.io/css/mimiindexlayout.css";
+				document.head.appendChild(link);
+			  }
+			};
+		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<div class="loader-wrapper">
