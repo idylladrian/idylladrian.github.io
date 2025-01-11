@@ -519,13 +519,13 @@ body::before {
 	margin-right: auto;
 	background: rgba(245, 66, 144, 0.3);
 	
-	padding: 200px;
-	padding-top: 400px;
-	width: 600px; /* Set width of the <div> */
-	height: 600px; /* Set height of the <div> */
+	padding: 60px;
+	padding-top: 120px;
+	width: 180px; /* Set width of the <div> */
+	height: 180px; /* Set height of the <div> */
 	background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 	background-repeat: no-repeat; /* Prevent tiling of the image */
-	background-size: 800px 800px; /* Ensure the image covers the <div> */
+	background-size: 240px 240px; /* Ensure the image covers the <div> */
 	background-position: center; /* Center the image */
 	
 	border: 3px solid white;
