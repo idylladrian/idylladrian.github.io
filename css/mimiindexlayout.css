@@ -86,7 +86,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 			font-weight: 400;
 			font-style: normal;
 			font-size: 65px;
-			color: #ffe375;
+			color: #FFFFFF;
 		}
 		
 		cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;
@@ -184,7 +184,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		text-align: center;
 		vertical-align: center;
 		border: 3px solid white;
-		padding-bottom: 20px;
+		/* padding-bottom: 20px; */
 		width: 1000px;
 	}
 
