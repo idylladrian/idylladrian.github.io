@@ -605,7 +605,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 	
 	.seasonal {
-		width: 100%; /* Set width of the <div> */
+		width: 1000px; /* Set width of the <div> */
 		height: 1000px; /* Set height of the <div> */
 		background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 		background-repeat: no-repeat; /* Prevent tiling of the image */
