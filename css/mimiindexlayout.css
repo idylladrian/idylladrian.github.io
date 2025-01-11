@@ -195,12 +195,12 @@ p {
 	-webkit-ind-animation: cursor 400ms infinite;
 	animation: cursor 400ms infinite;
 
-	background: #00018E;
-	background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
-	background-repeat: no-repeat;
-	background-position-x: center;
-	background-position-y: top;
-	background-attachment: fixed;
+	/* background: #00018E; */
+	/* background-image: url('https://idylladrian.github.io/graphics/index_background.jpg'); */
+	/* background-repeat: no-repeat; */
+	/* background-position-x: center; */
+	/* background-position-y: top; */
+	/* background-attachment: fixed; */
 	
 	image-rendering: pixelated;
 	/* overflow: hidden; */
