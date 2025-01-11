@@ -1,3 +1,29 @@
+@import url('https://use.typekit.net/qkd0qog.css');
+
+.text-pixel-arcade {
+	font-family: "cc-pixel-arcade-cartridge", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.text-flame-nova {
+	font-family: "cc-flame-on-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.text-myth-fables {
+	font-family: "cc-near-myth-fables", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.text-monstrocity {
+	font-family: "cc-monstrosity-hide", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
 @media screen 
 and (min-device-width: 1200px) 
 and (-webkit-min-device-pixel-ratio: 1) {
