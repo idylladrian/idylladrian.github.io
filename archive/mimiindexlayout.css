@@ -1,7 +1,5 @@
 @import url('https://use.typekit.net/qkd0qog.css');
 
-/* 1px = 0.052vw*/
-
 .text-pixel-arcade {
 	/* display: block; */
 	font-family: "cc-pixel-arcade-cartridge", sans-serif;
@@ -31,7 +29,7 @@
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.04vw;
+	font-size: 20px;
 	/* color: #FFFFFF; */
 	text-align: center; 
 	vertical-align: middle; 
@@ -188,7 +186,7 @@ p {
 		font-family: "cc-flame-on", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 3.38vw;
+		font-size: 65px;
 		color: #FFFFFF;
 		margin-bottom: 0px;
 	}
@@ -247,30 +245,30 @@ body::before {
 .loader {
 	display: block;
 	background-image: url('https://idylladrian.github.io/graphics/frog_loader.gif');
-	width: 5.2vw;
-	height: 3.9vw;
+	width: 100px;
+	height: 60px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: 4.16vw;
+	margin-left: 75px;
 	animation: loader 0.9s infinite ease;
 }
 
 @keyframes loader {
 	0% { transform: translateX(0px);}
-	7% { transform: translateX(-1.56vw);}
-	14% { transform: translateX(-2.6vw);}
-	21% { transform: translateX(-4.16vw);}
-	28% { transform: translateX(-5.72vw);}
-	35% { transform: translateX(-6.24vw);}
-	42% { transform: translateX(-6.76vw);}
-	49% { transform: translateX(-7.28vw);}
-	56% { transform: translateX(-7.8vw);}
-	63% { transform: translateX(-7.8vw);}
-	70% { transform: translateX(-7.8vw);}
-	77% { transform: translateX(-7.8vw);}
-	84% { transform: translateX(-7.8vw);}
-	91% { transform: translateX(-3.12vw);}
+	7% { transform: translateX(-30px);}
+	14% { transform: translateX(-50px);}
+	21% { transform: translateX(-80px);}
+	28% { transform: translateX(-110px);}
+	35% { transform: translateX(-120px);}
+	42% { transform: translateX(-130px);}
+	49% { transform: translateX(-140px);}
+	56% { transform: translateX(-150px);}
+	63% { transform: translateX(-150px);}
+	70% { transform: translateX(-150px);}
+	77% { transform: translateX(-150px);}
+	84% { transform: translateX(-150px);}
+	91% { transform: translateX(-60px);}
 	100% { transform: translateX(0px);}
 }
 
@@ -297,26 +295,25 @@ body::before {
 	vertical-align: center;
 	border: 3px solid white;
 	/* padding-bottom: 20px; */
-	width: 52vw;
+	width: 1000px;
 	color: white;
 }
 
 #head-bloc {
-	height: 4.16vw;
+	height: 80px;
 }
 
 #navigation-panel {
-	/* position: relative; */
+	position: relative;
 	left: 0px;
 	top: 0px;
-	margin-top: 1.04vw;
+	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 0;
 	float: none;
-	/* max-width: 1920px; */
-	width: 52vw;
-}
+	max-width: 1920px;
+	width: 1000px;
 }
 
 #welcome-text {
@@ -331,10 +328,6 @@ body::before {
 
 #nav-table {
 	vertical-align: top;
-	
-	td, th { /* table cells */
-		padding: .52vw;
-	}
 }
 
 .graphic {
@@ -347,109 +340,109 @@ body::before {
 
 .graphic.id-1 {
 	background-image: url('https://idylladrian.github.io/graphics/stars.gif');
-	width: 1.04vw;
-	height: 4.368vw;
+	width: 20px;
+	height: 84px;
 	z-index: 999;
 }
 
 .graphic.id-1.a {
-	margin-left: -16.9vw;
+	margin-left: -325px;
 	top: 200px;
 }
 
 .graphic.id-1.b {
-	margin-left: -12.22vw;
-	top: 13.52vw;
+	margin-left: -235px;
+	top: 260px;
 }
 
 .graphic.id-2 {
 	background-image: url('https://idylladrian.github.io/graphics/Stars(1).gif');
-	width: 1.56vw;
-	height: 4.368vw;
-	margin-left: -6.76vw;
-	top: 11.96vw;
+	width: 30px;
+	height: 84px;
+	margin-left: -130px;
+	top: 230px;
 	z-index: 999;
 }
 
 .graphic.id-3 {
 	background-image: url('https://idylladrian.github.io/graphics/stars2.gif');
-	width: 3.12vw;
-	height: 4.368vw;
-	margin-left: -2.6vw;
-	top: 6.76vw;
+	width: 60px;
+	height: 84px;
+	margin-left: -50px;
+	top: 130px;
 	z-index: 999;
 }
 
 .graphic.id-4 {
 	background-image: url('https://idylladrian.github.io/graphics/starsg.gif');
-	width: 1.56vw;
-	height: 4.368vw;
-	margin-left: 3.38vw;
-	top: 12.48vw;
+	width: 30px;
+	height: 84px;
+	margin-left: 65px;
+	top: 240px;
 }
 
 .graphic.id-5 {
 	background-image: url('https://idylladrian.github.io/graphics/twinkystarsred.gif');
-	width: 1.04vw;
-	height: 8.528vw;
+	width: 20px;
+	height: 164px;
 }
 
 .graphic.id-5.a {
-	margin-left: 20.8vw;
-	top: 12.48vw;
+	margin-left: 400px;
+	top: 240px;
 }
 
 .graphic.id-5.b {
-	margin-left: 20.384vw;
-	top: 10.4vw;
+	margin-left: 392px;
+	top: 200px;
 }
 
 .graphic.id-5.c {
-	margin-left: 21.216vw;
-	top: 10.4vw;
+	margin-left: 408px;
+	top: 200px;
 }
 
 .graphic.id-5.d {
-	margin-left: 20.904vw;
-	top: 8.06vw;
+	margin-left: 402px;
+	top: 155px;
 }
 
 .graphic.id-6 {
 	background-image: url('https://idylladrian.github.io/graphics/flamNEW.gif');
-	width: 2.912vw;
-	height: 1.768vw;
-	margin-left: 3.9vw;
+	width: 56px;
+	height: 34px;
+	margin-left: 75px;
 	left: 50%;
-	top: 8.84vw;
+	top: 170px;
 }
 
 .graphic.id-7 {
 	background-image: url('https://idylladrian.github.io/graphics/moon.gif');
-	width: 5.2vw;
-	height: 5.2vw;
-	margin-left: 7.8vw;
+	width: 100px;
+	height: 100px;
+	margin-left: 150px;
 	left: 50%;
-	top: 6.24vw;
+	top: 120px;
 }
 
 .graphic.id-8 {
 	background-image: url('https://idylladrian.github.io/graphics/Twinkle.gif');
-	background-size: 16.64vw 10.4vw;
+	background-size: 320px 200px;
 	background-repeat: repeat;
 	width: 100%;
-	height: 15.6vw;
+	height: 300px;
 	margin-left: -50%;
 	left: 50%;
-	top: 5.2vw;
+	top: 100px;
 	z-index: -1;
 }
 
 .graphic.id-9 {
 	background-image: url('https://idylladrian.github.io/graphics/x-hikashi3.gif');
 	position: fixed;
-	width: 3.068vw;
-	height: 1.248vw;
-	margin-top: -1.56vw;
+	width: 59px;
+	height: 24px;
+	margin-top: -30px;
 	left: 95%;
 	top: 100%;
 }
@@ -457,14 +450,10 @@ body::before {
 .graphic.id-10 {
 	background-image: url('https://idylladrian.github.io/graphics/fire.gif');
 	background-repeat: repeat-x;
-	position: fixed;
-	width: 100vw;
-	height: 5%;
-	/* min-height: 5%; */
-	/* max-height: 5%; */
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	left: 0px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -510,35 +499,35 @@ body::before {
 }
 
 .btn-mobile {
-	width: 5.2vw;
-	height: 1.144vw;
+	width: 100px;
+	height: 22px;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 5.72vw;
-	left: 0.52vw;
+	top: 110px;
+	left: 10px;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/button_mobile.gif');
-	background-size: 5.2vw 1.144vw;
+	background-size: 100px 22px;
 }
 
 .btn-audio {
-	width: 2.08vw;
-	height: 2.08vw;
+	width: 40px;
+	height: 40px;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 5.72vw;
-	right: 0.52vw;
+	top: 110px;
+	right: 10px;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/ico-audio.png');
-	background-size: 2.08vw;
+	background-size: 40px;
 }
 
 .btn-audio.is-inactive {
-	background-position: 0 -2.08vw;
+	background-position: 0 -40px;
 	background-position-x: 0px;
-	background-position-y: -2.08vw;
+	background-position-y: -40px;
 }
 
 .btn-audio.is-active {
@@ -549,7 +538,7 @@ body::before {
 
 #container {
 	width: 100%;
-	height: 3.64vw;
+	height: 70px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -561,9 +550,9 @@ body::before {
 
 #container2 {
 	width: 100%;
-	height: 1.56vw;
+	height: 30px;
 	position: absolute;
-	top: 3.64vw;
+	top: 70px;
 	left: 0px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -605,10 +594,10 @@ body::before {
 	white-space: nowrap;
 	background-image: url('https://idylladrian.github.io/graphics/guadalupe-small.png');
 	background-position: center;
-	background-size: 10.4vw 3.64vw;
+	background-size: 200px 70px;
 	background-repeat: repeat-x;
 	width: 100%;
-	height: 3.64vw;
+	height: 70px;
 	left: 0px;
 	top: 0px;
 }
@@ -623,10 +612,10 @@ body::before {
 	white-space: nowrap;
 	background-image: url('https://idylladrian.github.io/graphics/bendiga.png');
 	background-position: center;
-	background-size: 20.8vw 1.144vw;
+	background-size: 400px 22px;
 	background-repeat: repeat-x;
 	width: 100%;
-	height: 1.56vw;
+	height: 30px;
 	left: 0px;
 	top: 0px;
 }
@@ -636,13 +625,13 @@ body::before {
 	margin-right: auto;
 	background: rgba(245, 66, 144, 0.3);
 	
-	padding: 10.4vw;
-	padding-top: 20.8vw;
-	width: 31.2vw; /* Set width of the <div> */
-	height: 31.2vw; /* Set height of the <div> */
+	padding: 200px;
+	padding-top: 400px;
+	width: 600px; /* Set width of the <div> */
+	height: 600px; /* Set height of the <div> */
 	background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
 	background-repeat: no-repeat; /* Prevent tiling of the image */
-	background-size: 41.6vw 41.6vw; /* Ensure the image covers the <div> */
+	background-size: 800px 800px; /* Ensure the image covers the <div> */
 	background-position: center; /* Center the image */
 	
 	border: 3px solid white;
@@ -651,7 +640,6 @@ body::before {
 
 .center-block-text {
 	color: #FFFFFF;
-	font-size: 0.832vw;
 }
 
 .seasonal-text {
@@ -660,21 +648,13 @@ body::before {
 	font-style: normal;
 	color: #0000ff;
 	margin-top: 0px;
-	font-size: 0.832vw;
 }
 
 .virgen-stamp {
-	width: 5.2vw;
+	width: 100px;
 	display: block; /* Ensures the image behaves like a block element */
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.pokemon-inline {
-	width: 5vw;
-}
-
-.new-inline {
-	width: 7vw;
-}
 /* } */
