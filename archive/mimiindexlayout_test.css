@@ -317,6 +317,7 @@ body::before {
 	/* max-width: 1920px; */
 	width: 52vw;
 }
+}
 
 #welcome-text {
 	left: 50%;
@@ -330,6 +331,10 @@ body::before {
 
 #nav-table {
 	vertical-align: top;
+	
+	td, th { /* table cells */
+		padding: .52vw;
+	}
 }
 
 .graphic {
@@ -411,8 +416,8 @@ body::before {
 
 .graphic.id-6 {
 	background-image: url('https://idylladrian.github.io/graphics/flamNEW.gif');
-	/* width: 2.912vw; */
-	/* height: 1.768vw; */
+	width: 2.912vw;
+	height: 1.768vw;
 	margin-left: 3.9vw;
 	left: 50%;
 	top: 8.84vw;
@@ -452,10 +457,12 @@ body::before {
 .graphic.id-10 {
 	background-image: url('https://idylladrian.github.io/graphics/fire.gif');
 	background-repeat: repeat-x;
-	position: relative;
+	position: fixed;
 	width: 100vw;
-	height: 7vw;
-	left: 0px;
+	max-height: 5%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
 }
 
 @media only screen and (max-width: 1150px) {
