@@ -459,7 +459,9 @@ body::before {
 	background-repeat: repeat-x;
 	position: fixed;
 	width: 100vw;
-	max-height: 5%;
+	height: 5%;
+	/* min-height: 5%; */
+	/* max-height: 5%; */
 	left: 0;
 	bottom: 0;
 	z-index: -1;
