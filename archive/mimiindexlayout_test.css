@@ -1,5 +1,7 @@
 @import url('https://use.typekit.net/qkd0qog.css');
 
+/* 1px = 0.052vw*/
+
 .text-pixel-arcade {
 	/* display: block; */
 	font-family: "cc-pixel-arcade-cartridge", sans-serif;
@@ -186,7 +188,7 @@ p {
 		font-family: "cc-flame-on", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 65px;
+		font-size: 3.38vw;
 		color: #FFFFFF;
 		margin-bottom: 0px;
 	}
