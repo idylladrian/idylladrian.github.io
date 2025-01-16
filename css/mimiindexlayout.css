@@ -562,6 +562,7 @@ body::before {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: white;
+	size: 50vw 50vh;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 0px;
