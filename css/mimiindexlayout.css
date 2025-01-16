@@ -517,18 +517,18 @@ body::before {
 	background-size: 4.16vw;
 }
 
-/* .btn-trick { */
-	/* width: 8.6vw; */
-	/* height: 6vw; */
-	/* display: block; */
-	/* cursor: pointer; */
-	/* position: absolute; */
-	/* top: 24vw; */
-	/* left: 1vw; */
-	/* z-index: 999; */
-	/* background-image: url('https://idylladrian.github.io/graphics/index/click.gif'); */
-	/* background-size: 8.6vw 6vw; */
-/* } */
+.btn-trick {
+	width: 8.6vw;
+	height: 6vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 24vw;
+	left: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
+	background-size: 8.6vw 6vw;
+}
 
 .btn-virus {
 	width: 11.4vw;
