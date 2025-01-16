@@ -148,6 +148,55 @@
         .btn-audio:hover {
             background-color: #0056b3;
         }
+		
+		.popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            display: none;
+            z-index: 1000;
+        }
+
+        .popup h2 {
+            margin: 0 0 10px;
+        }
+
+        .popup button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .popup button:hover {
+            background-color: #0056b3;
+        }
+
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 999;
+        }
+		
+		.popup-trigger {
+            cursor: pointer;
+            width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -168,7 +217,8 @@
     <a href="#">History</a>
 	</nav>
 	
-	<a href="javascript:void(0)" class="btn-audio" data-audio="C:\Users\idyll\OneDrive\Documents\idylladrian.github.io\audio\Super_Mario_64.mp3" data-loop="true" data-mute-control="true">Play Audio</a>
+	<img src="C:/Users/idyll/OneDrive/Documents/idylladrian.github.io/Projects/cached_images/popup_trigger.jpg" id="popupTrigger" class="popup-trigger" alt="Open Popup">
+</header>
 </header>
 
 <section class="front-page">
@@ -195,23 +245,32 @@
 
 </body>
 
+<div class="popup-overlay" id="popupOverlay"></div>
+<div class="popup" id="popup">
+    <h2>Popup Title</h2>
+    <p>This is a simple popup window.</p>
+    <button id="closePopup">Close</button>
+</div>
+
 <script>
-    const audioButton = document.querySelector('.btn-audio');
-    let audioInstance;
+    const popupButton = document.getElementById('popupTrigger');
+    const popup = document.getElementById('popup');
+    const closePopup = document.getElementById('closePopup');
+    const popupOverlay = document.getElementById('popupOverlay');
 
-    audioButton.addEventListener('click', function() {
-        if (!audioInstance) {
-            audioInstance = new Audio(this.getAttribute('data-audio'));
-            audioInstance.loop = this.getAttribute('data-loop') === 'true';
-        }
+    popupButton.addEventListener('click', function() {
+        popup.style.display = 'block';
+        popupOverlay.style.display = 'block';
+    });
 
-        if (audioInstance.paused) {
-            audioInstance.play();
-            this.textContent = 'Pause Audio';
-        } else {
-            audioInstance.pause();
-            this.textContent = 'Play Audio';
-        }
+    closePopup.addEventListener('click', function() {
+        popup.style.display = 'none';
+        popupOverlay.style.display = 'none';
+    });
+
+    popupOverlay.addEventListener('click', function() {
+        popup.style.display = 'none';
+        popupOverlay.style.display = 'none';
     });
 </script>
 
