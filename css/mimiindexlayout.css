@@ -508,8 +508,8 @@ body::before {
 }
 
 .btn-mobile {
-	width: 5.2vw;
-	height: 1.144vw;
+	width: 10.4vw;
+	height: 2.288vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
@@ -521,8 +521,8 @@ body::before {
 }
 
 .btn-audio {
-	width: 2.08vw;
-	height: 2.08vw;
+	width: 4.16vw;
+	height: 4.16vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
