@@ -527,7 +527,7 @@ body::before {
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
-	background-size: 15.2vw 10.8vw;
+	background-size: 6vw 8.6vw;
 }
 
 .btn-virus {
@@ -540,7 +540,7 @@ body::before {
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
-	background-size: 8.6vw 6vw;
+	background-size: 15.2vw 10.8vw;
 }
 
 .btn-audio.is-inactive {
