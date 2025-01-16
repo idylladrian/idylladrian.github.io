@@ -523,6 +523,14 @@ body::before {
 }
 
 .btn-audio {
+	/* padding: 10px 20px; */
+	/* font-size: 1rem; */
+	/* color: white; */
+	/* background-color: #007bff; */
+	/* border: none; */
+	/* cursor: pointer; */
+	/* border-radius: 5px; */
+	/* text-transform: uppercase; */
 	width: 2.08vw;
 	height: 2.08vw;
 	display: block;

@@ -21,15 +21,6 @@
 			<!-- }; -->
 		<!-- </script> -->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-		<div class="loader-wrapper">
-			<span class="loader"></span>
-		</div>
-		<script>
-			$(window).on("load",function(){
-				$(".loader-wrapper").fadeOut("slow");
-				});
-		</script>
 	</head>
 	
 	<body id=index-page>
@@ -48,7 +39,7 @@
 		
 			<div id=head-bloc>
 				<a href="" class=btn-mobile></a>
-				<a href="javascript:void(0)" class="btn-audio is-inactive" data-audio="https://adrianontheweb.com/audio/Super Mario 64 - Water Theme  Dire Dire Docks - HD.mp3" data-loop="true" data-mute-control="true"></a>
+				<a href="javascript:void(0)" class="btn-audio" data-audio="C:\Users\idyll\OneDrive\Documents\idylladrian.github.io\audio\Super_Mario_64.mp3" data-loop="true" data-mute-control="true">Play Audio</a>
 			</div>
 			<div id=navigation-panel>
 				<table id=nav-table summary="navigation menu">
@@ -123,4 +114,36 @@
 			<div class="graphic id-10"></div>
 		</div>
 	</body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+				
+		const audioButton = document.querySelector('.btn-audio');
+		let audioInstance;
+
+		audioButton.addEventListener('click', function() {
+			if (!audioInstance) {
+				audioInstance = new Audio(this.getAttribute('data-audio'));
+				audioInstance.loop = this.getAttribute('data-loop') === 'true';
+			}
+
+			if (audioInstance.paused) {
+				audioInstance.play();
+				this.classList.remove('is-inactive');
+				this.classList.add('is-active');
+				this.textContent = 'Pause Audio';
+			} else {
+				audioInstance.pause();
+				this.classList.remove('is-active');
+				this.classList.add('is-inactive');
+				this.textContent = 'Play Audio';
+			}
+		});
+	</script>
 </html>
