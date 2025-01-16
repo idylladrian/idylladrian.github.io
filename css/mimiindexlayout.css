@@ -196,16 +196,8 @@ p {
 	cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;
 	-webkit-ind-animation: cursor 400ms infinite;
 	animation: cursor 400ms infinite;
-
-	/* background: #00018E; */
-	/* background-image: url('https://idylladrian.github.io/graphics/index_background.jpg'); */
-	/* background-repeat: no-repeat; */
-	/* background-position-x: center; */
-	/* background-position-y: top; */
-	/* background-attachment: fixed; */
 	
 	image-rendering: pixelated;
-	/* overflow: hidden; */
 }
 
 @-webkit-ind-keyframes cursor {
@@ -277,14 +269,6 @@ body::before {
 .content {
 	display: block;
 }
-
-/* @keyframes loader {
-	0% { transform: rotate(0deg);}
-	25% { transform: rotate(180deg);}
-	50% { transform: rotate(180deg);}
-	75% { transform: rotate(360deg);}
-	100% { transform: rotate(360deg);}
-} */
 
 .center {
 	margin-left: auto;
@@ -530,6 +514,32 @@ body::before {
 	right: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/ico-audio.png');
+	background-size: 4.16vw;
+}
+
+.btn-trick {
+	width: 4.16vw;
+	height: 4.16vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 6vw;
+	right: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
+	background-size: 4.16vw;
+}
+
+.btn-virus {
+	width: 4.16vw;
+	height: 4.16vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 6vw;
+	right: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
 	background-size: 4.16vw;
 }
 
