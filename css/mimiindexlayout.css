@@ -193,7 +193,7 @@ p {
 		margin-bottom: 0px;
 	}
 	
-	cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;
+	cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;
 	-webkit-ind-animation: cursor 400ms infinite;
 	animation: cursor 400ms infinite;
 
@@ -209,13 +209,13 @@ p {
 }
 
 @-webkit-ind-keyframes cursor {
-  0% {cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;}
-  100% {cursor: url('https://idylladrian.github.io/graphics/hottie-1.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-1.gif'), auto;}
 } 
 
 @keyframes cursor {
-  0% {cursor: url('https://idylladrian.github.io/graphics/hottie-0.gif'), auto;}
-  100% {cursor: url('https://idylladrian.github.io/graphics/hottie-1.gif'), auto;}
+  0% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-1.gif'), auto;}
 }
 
 body::before {
@@ -346,7 +346,7 @@ body::before {
 }
 
 .graphic.id-1 {
-	background-image: url('https://idylladrian.github.io/graphics/stars.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/stars.gif');
 	width: 1.04vw;
 	height: 4.368vw;
 	z-index: 999;
@@ -363,7 +363,7 @@ body::before {
 }
 
 .graphic.id-2 {
-	background-image: url('https://idylladrian.github.io/graphics/Stars(1).gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/Stars(1).gif');
 	width: 1.56vw;
 	height: 4.368vw;
 	margin-left: -6.76vw;
@@ -372,7 +372,7 @@ body::before {
 }
 
 .graphic.id-3 {
-	background-image: url('https://idylladrian.github.io/graphics/stars2.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/stars2.gif');
 	width: 3.12vw;
 	height: 4.368vw;
 	margin-left: -2.6vw;
@@ -381,7 +381,7 @@ body::before {
 }
 
 .graphic.id-4 {
-	background-image: url('https://idylladrian.github.io/graphics/starsg.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/starsg.gif');
 	width: 1.56vw;
 	height: 4.368vw;
 	margin-left: 3.38vw;
@@ -389,7 +389,7 @@ body::before {
 }
 
 .graphic.id-5 {
-	background-image: url('https://idylladrian.github.io/graphics/twinkystarsred.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/twinkystarsred.gif');
 	width: 1.04vw;
 	height: 8.528vw;
 }
@@ -415,7 +415,7 @@ body::before {
 }
 
 .graphic.id-6 {
-	background-image: url('https://idylladrian.github.io/graphics/flamNEW.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/flamNEW.gif');
 	width: 2.912vw;
 	height: 1.768vw;
 	margin-left: 3.9vw;
@@ -424,7 +424,7 @@ body::before {
 }
 
 .graphic.id-7 {
-	background-image: url('https://idylladrian.github.io/graphics/moon.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/moon.gif');
 	width: 5.2vw;
 	height: 5.2vw;
 	margin-left: 7.8vw;
@@ -433,7 +433,7 @@ body::before {
 }
 
 .graphic.id-8 {
-	background-image: url('https://idylladrian.github.io/graphics/Twinkle.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/Twinkle.gif');
 	background-size: 16.64vw 10.4vw;
 	background-repeat: repeat;
 	width: 100%;
@@ -445,7 +445,7 @@ body::before {
 }
 
 .graphic.id-9 {
-	background-image: url('https://idylladrian.github.io/graphics/x-hikashi3.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/x-hikashi3.gif');
 	position: fixed;
 	width: 3.068vw;
 	height: 1.248vw;
@@ -455,7 +455,7 @@ body::before {
 }
 
 .graphic.id-10 {
-	background-image: url('https://idylladrian.github.io/graphics/fire.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/fire.gif');
 	background-repeat: repeat-x;
 	position: fixed;
 	width: 100vw;
@@ -513,10 +513,10 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 5.72vw;
-	left: 0.52vw;
+	top: 6vw; /*5.72*/
+	left: 1vw; /*0.52*/
 	z-index: 999;
-	background-image: url('https://idylladrian.github.io/graphics/button_mobile.gif');
+	background-image: url('https://idylladrian.github.io/graphics/index/button_mobile.gif');
 	background-size: 10.4vw 2.288vw;
 }
 
@@ -526,10 +526,10 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 5.72vw;
-	right: 0.52vw;
+	top: 6vw;
+	right: 1vw;
 	z-index: 999;
-	background-image: url('https://idylladrian.github.io/graphics/ico-audio.png');
+	background-image: url('https://idylladrian.github.io/graphics/index/ico-audio.png');
 	background-size: 4.16vw;
 }
 
@@ -600,7 +600,7 @@ body::before {
 	color: #e2e8f0;
 	background-color: #152c41;
 	white-space: nowrap;
-	background-image: url('https://idylladrian.github.io/graphics/guadalupe-small.png');
+	background-image: url('https://idylladrian.github.io/graphics/index/guadalupe-small.png');
 	background-position: center;
 	background-size: 10.4vw 3.64vw;
 	background-repeat: repeat-x;
@@ -616,7 +616,7 @@ body::before {
 	color: #e2e8f0;
 	background-color: #000000;
 	white-space: nowrap;
-	background-image: url('https://idylladrian.github.io/graphics/bendiga.png');
+	background-image: url('https://idylladrian.github.io/graphics/index/bendiga.png');
 	background-position: center;
 	background-size: 20.8vw 1.144vw;
 	background-repeat: repeat-x;
@@ -634,7 +634,7 @@ body::before {
 	padding-top: 20.8vw;
 	width: 31.2vw; /* Set width of the <div> */
 	height: 31.2vw; /* Set height of the <div> */
-	background-image: url('https://idylladrian.github.io/graphics/winter.jpeg'); /* Replace with your image URL */
+	background-image: url('https://idylladrian.github.io/graphics/index/winter.jpeg'); /* Replace with your image URL */
 	background-repeat: no-repeat; /* Prevent tiling of the image */
 	background-size: 41.6vw 41.6vw; /* Ensure the image covers the <div> */
 	background-position: center; /* Center the image */
