@@ -562,9 +562,9 @@ body::before {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/* background-color: white; */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	border-radius: 0px;
-	padding: 20px;
+	/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+	/* border-radius: 0px; */
+	/* padding: 20px; */
 	text-align: center;
 	display: none;
 	z-index: 1000;
