@@ -523,7 +523,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 6vw;
+	top: 10vw;
 	right: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
@@ -536,7 +536,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 6vw;
+	top: 15vw;
 	right: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
