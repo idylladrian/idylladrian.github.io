@@ -562,8 +562,6 @@ body::before {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: white;
-	size: 50vw 50vh;
-	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 0px;
 	padding: 20px;
@@ -576,22 +574,9 @@ body::before {
 	margin: 0 0 10px;
 }
 
-/* .popup button { */
-	/* width: 8.6vw; */
-	/* height: 6vw; */
-	/* display: block; */
-	/* cursor: pointer; */
-	/* position: absolute; */
-	/* top: 24vw; */
-	/* left: 1vw; */
-	/* z-index: 999; */
-	/* background-image: url('https://idylladrian.github.io/graphics/index/click.gif'); */
-	/* background-size: 8.6vw 6vw; */
-/* } */
-
-/* .popup button:hover { */
-	/* background-color: #0056b3; */
-/* } */
+.got-em {
+	size: 32vw 24vh;
+}
 
 .popup-overlay {
 	position: fixed;
