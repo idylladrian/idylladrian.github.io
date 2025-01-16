@@ -114,6 +114,14 @@
 			
 			<div class="graphic id-10"></div>
 		</div>
+		
+		<div class="popup-overlay" id="popupOverlay"></div>
+		<div class="popup" id="popup">
+			<h2>Popup Title</h2>
+			<p>This is a simple popup window.</p>
+			<button id="closePopup">Close</button>
+		</div>
+
 	</body>
 	
 	<footer>
@@ -162,4 +170,27 @@
 			}
 		});
 	</script>
+	
+	<script>
+		const popupButton = document.getElementById('btn-trick');
+		const popup = document.getElementById('popup');
+		const closePopup = document.getElementById('closePopup');
+		const popupOverlay = document.getElementById('popupOverlay');
+
+		popupButton.addEventListener('click', function() {
+			popup.style.display = 'block';
+			popupOverlay.style.display = 'block';
+		});
+
+		closePopup.addEventListener('click', function() {
+			popup.style.display = 'none';
+			popupOverlay.style.display = 'none';
+		});
+
+		popupOverlay.addEventListener('click', function() {
+			popup.style.display = 'none';
+			popupOverlay.style.display = 'none';
+		});
+	</script>
+
 </html>
