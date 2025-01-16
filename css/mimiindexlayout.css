@@ -518,29 +518,29 @@ body::before {
 }
 
 .btn-trick {
-	width: 4.16vw;
-	height: 4.16vw;
+	width: 15.2vw;
+	height: 10.8vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
 	top: 10vw;
-	right: 1vw;
+	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
-	background-size: 4.16vw;
+	background-size: 15.2vw 10.8vw;
 }
 
 .btn-virus {
-	width: 4.16vw;
-	height: 4.16vw;
+	width: 8.6vw;
+	height: 6vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
 	top: 15vw;
-	right: 1vw;
+	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
-	background-size: 4.16vw;
+	background-size: 8.6vw 6vw;
 }
 
 .btn-audio.is-inactive {
