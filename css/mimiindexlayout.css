@@ -497,7 +497,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 16vw; /*5.72*/
+	top: 21vw; /*5.72*/
 	left: 1vw; /*0.52*/
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/button_mobile.gif');
@@ -510,7 +510,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 16vw;
+	top: 21vw;
 	right: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/ico-audio.png');
@@ -518,29 +518,29 @@ body::before {
 }
 
 .btn-trick {
-	width: 6vw;
-	height: 8.6vw;
+	width: 8.6vw;
+	height: 6vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 19vw;
+	top: 24vw;
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
-	background-size: 6vw 8.6vw;
+	background-size: 8.6vw 6vw;
 }
 
 .btn-virus {
-	width: 15.2vw;
-	height: 10.8vw;
+	width: 11.4vw;
+	height: 7.5vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 30vw;
+	top: 35vw;
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
-	background-size: 15.2vw 10.8vw;
+	background-size: 11.4vw 7.5vw;
 }
 
 .btn-audio.is-inactive {
