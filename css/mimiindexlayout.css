@@ -497,7 +497,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 6vw; /*5.72*/
+	top: 16vw; /*5.72*/
 	left: 1vw; /*0.52*/
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/button_mobile.gif');
@@ -510,7 +510,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 6vw;
+	top: 16vw;
 	right: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/ico-audio.png');
@@ -523,7 +523,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 10vw;
+	top: 19vw;
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
@@ -536,7 +536,7 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 15vw;
+	top: 30vw;
 	left: 1vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
