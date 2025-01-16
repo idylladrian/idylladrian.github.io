@@ -575,7 +575,11 @@ body::before {
 }
 
 .got-em {
-	size: 32vw 24vh;
+	width: 32vw; 
+	height: 24vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .popup-overlay {
