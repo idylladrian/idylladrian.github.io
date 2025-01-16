@@ -517,18 +517,18 @@ body::before {
 	background-size: 4.16vw;
 }
 
-.btn-trick {
-	width: 8.6vw;
-	height: 6vw;
-	display: block;
-	cursor: pointer;
-	position: absolute;
-	top: 24vw;
-	left: 1vw;
-	z-index: 999;
-	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
-	background-size: 8.6vw 6vw;
-}
+/* .btn-trick { */
+	/* width: 8.6vw; */
+	/* height: 6vw; */
+	/* display: block; */
+	/* cursor: pointer; */
+	/* position: absolute; */
+	/* top: 24vw; */
+	/* left: 1vw; */
+	/* z-index: 999; */
+	/* background-image: url('https://idylladrian.github.io/graphics/index/click.gif'); */
+	/* background-size: 8.6vw 6vw; */
+/* } */
 
 .btn-virus {
 	width: 11.4vw;
@@ -574,13 +574,16 @@ body::before {
 }
 
 .popup button {
-	padding: 10px 20px;
-	font-size: 1rem;
-	background-color: #007bff;
-	color: white;
-	border: none;
+	width: 8.6vw;
+	height: 6vw;
+	display: block;
 	cursor: pointer;
-	border-radius: 5px;
+	position: absolute;
+	top: 24vw;
+	left: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
+	background-size: 8.6vw 6vw;
 }
 
 .popup button:hover {
