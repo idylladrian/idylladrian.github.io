@@ -460,8 +460,6 @@ body::before {
 	position: fixed;
 	width: 100vw;
 	height: 5%;
-	/* min-height: 5%; */
-	/* max-height: 5%; */
 	left: 0;
 	bottom: 0;
 	z-index: -1;
@@ -519,18 +517,10 @@ body::before {
 	left: 0.52vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/button_mobile.gif');
-	background-size: 5.2vw 1.144vw;
+	background-size: 10.4vw 2.288vw;
 }
 
 .btn-audio {
-	/* padding: 10px 20px; */
-	/* font-size: 1rem; */
-	/* color: white; */
-	/* background-color: #007bff; */
-	/* border: none; */
-	/* cursor: pointer; */
-	/* border-radius: 5px; */
-	/* text-transform: uppercase; */
 	width: 2.08vw;
 	height: 2.08vw;
 	display: block;
@@ -540,13 +530,13 @@ body::before {
 	right: 0.52vw;
 	z-index: 999;
 	background-image: url('https://idylladrian.github.io/graphics/ico-audio.png');
-	background-size: 2.08vw;
+	background-size: 4.16vw;
 }
 
 .btn-audio.is-inactive {
-	background-position: 0 -2.08vw;
+	background-position: 0 -4.16vw;
 	background-position-x: 0px;
-	background-position-y: -2.08vw;
+	background-position-y: -4.16vw;
 }
 
 .btn-audio.is-active {
@@ -609,8 +599,6 @@ body::before {
 	align-items: center;
 	color: #e2e8f0;
 	background-color: #152c41;
-	/* padding: 0.7rem 1rem; */
-	/* margin: 0rem 1rem; */
 	white-space: nowrap;
 	background-image: url('https://idylladrian.github.io/graphics/guadalupe-small.png');
 	background-position: center;
@@ -627,8 +615,6 @@ body::before {
 	position: absolute;
 	color: #e2e8f0;
 	background-color: #000000;
-	/* padding: 0.7rem 1rem; */
-	/* margin: 0rem 1rem; */
 	white-space: nowrap;
 	background-image: url('https://idylladrian.github.io/graphics/bendiga.png');
 	background-position: center;
@@ -644,7 +630,6 @@ body::before {
 	margin-left: auto;
 	margin-right: auto;
 	background: rgba(245, 66, 144, 0.3);
-	
 	padding: 10.4vw;
 	padding-top: 20.8vw;
 	width: 31.2vw; /* Set width of the <div> */
@@ -655,7 +640,6 @@ body::before {
 	background-position: center; /* Center the image */
 	
 	border: 3px solid white;
-
 }
 
 .center-block-text {
