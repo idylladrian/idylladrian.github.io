@@ -603,6 +603,7 @@ body::before {
 	0% {transform: translateX(0%);}
 	100% {transform: translateX(-50%);}
 }
+
 .guadalupe-roll {
 	display: flex;
 	align-items: center;
