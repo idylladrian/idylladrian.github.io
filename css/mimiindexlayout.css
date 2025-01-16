@@ -442,7 +442,7 @@ body::before {
 .graphic.id-10 {
 	background-image: url('https://idylladrian.github.io/graphics/index/fire.gif');
 	background-repeat: repeat-x;
-	position: fixed;
+	position: relative;
 	width: 100vw;
 	height: 5%;
 	left: 0;
