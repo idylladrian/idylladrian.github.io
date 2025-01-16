@@ -108,7 +108,7 @@
 				<div class="title-bar-controls">
 				  <button aria-label="Minimize"></button>
 				  <button aria-label="Maximize"></button>
-				  <button aria-label="Close"></button>
+				  <button aria-label="Close" id="closeButton"></button>
 				</div>
 			  </div>
 			  <div class="window-body">
@@ -169,7 +169,7 @@
 	<script>
 		const popupButton = document.getElementById('popupButton');
 		const popup = document.getElementById('popup');
-		const closePopup = document.getElementById('closePopup');
+		const closePopup = document.getElementById('closeButton');
 		const popupOverlay = document.getElementById('popupOverlay');
 
 		popupButton.addEventListener('click', function() {
