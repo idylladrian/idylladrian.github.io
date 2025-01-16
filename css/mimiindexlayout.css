@@ -518,8 +518,8 @@ body::before {
 }
 
 .btn-trick {
-	width: 15.2vw;
-	height: 10.8vw;
+	width: 6vw;
+	height: 8.6vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
@@ -531,8 +531,8 @@ body::before {
 }
 
 .btn-virus {
-	width: 8.6vw;
-	height: 6vw;
+	width: 15.2vw;
+	height: 10.8vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
