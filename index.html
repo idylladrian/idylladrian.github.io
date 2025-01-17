@@ -133,7 +133,6 @@
 				</div>
 			  </div>
 			  <div class="window-body">
-				<img src="https://idylladrian.github.io/graphics/index/Rick_Astley.gif" style="width: 50vw; height: 37.5;"/>
 			  </div>
 			</div>
 		</div>
@@ -213,24 +212,24 @@
 	</script>
 	
 	<script>
-		const popupButton = document.getElementById('popupButtonVirus');
-		const popup = document.getElementById('popupVirus');
-		const closePopup = document.getElementById('closeButtonVirus');
-		const popupOverlay = document.getElementById('popupOverlayVirus');
+		const popupButtonVirus = document.getElementById('popupButtonVirus');
+		const popupVirus = document.getElementById('popupVirus');
+		const closePopupVirus = document.getElementById('closeButtonVirus');
+		const popupOverlayVirus = document.getElementById('popupOverlayVirus');
 
-		popupButton.addEventListener('click', function() {
-			popup.style.display = 'block';
-			popupOverlay.style.display = 'block';
+		popupButtonVirus.addEventListener('click', function() {
+			popupVirus.style.display = 'block';
+			popupOverlayVirus.style.display = 'block';
 		});
 
 			// Close popup and stop audio
-		const closePopupHandler = function() {
-			popup.style.display = 'none';
-			popupOverlay.style.display = 'none';
+		const closePopupHandlerVirus = function() {
+			popupVirus.style.display = 'none';
+			popupOverlayVirus.style.display = 'none';
 		};
 
-		closePopup.addEventListener('click', closePopupHandler);
-		popupOverlay.addEventListener('click', closePopupHandler);
+		closePopupVirus.addEventListener('click', closePopupHandlerVirus);
+		popupOverlayVirus.addEventListener('click', closePopupHandlerVirus);
 	</script>
 
 </html>
