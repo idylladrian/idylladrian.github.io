@@ -29,7 +29,7 @@
 			<div id=head-bloc>
 				<a href="javascript:void(0)" class=btn-mobile></a>
 				<a href="javascript:void(0)" id=popupButton class=btn-trick></a>
-				<a href="javascript:void(0)" class=btn-virus></a>
+				<a href="javascript:void(0)" id=popupButtonVirus class=btn-virus></a>
 				<a href="javascript:void(0)" class="btn-audio" data-audio="https://idylladrian.github.io/audio/Super_Mario_64.mp3" data-loop="true" data-mute-control="true"></a>
 			</div>
 			<div id=navigation-panel>
@@ -120,6 +120,23 @@
 			  </div>
 			</div>
 		</div>
+		
+		<div class="popup-overlay" id="popupOverlayVirus"></div>
+		<div class="popup" id="popupVirus">
+			<div class="window" style="width: 80vw;">
+			  <div class="title-bar">
+				<div class="title-bar-text">UH OH!</div>
+				<div class="title-bar-controls">
+				  <button aria-label="Minimize"></button>
+				  <button aria-label="Maximize"></button>
+				  <button aria-label="Close" id="closeButtonVirus"></button>
+				</div>
+			  </div>
+			  <div class="window-body">
+				<img src="https://idylladrian.github.io/graphics/index/Rick_Astley.gif" style="width: 50vw; height: 37.5;"/>
+			  </div>
+			</div>
+		</div>
 
 	</body>
 	
@@ -189,6 +206,27 @@
 			popupOverlay.style.display = 'none';
 			popupAudio.pause(); // Pause audio
 			popupAudio.currentTime = 0; // Reset audio to start
+		};
+
+		closePopup.addEventListener('click', closePopupHandler);
+		popupOverlay.addEventListener('click', closePopupHandler);
+	</script>
+	
+	<script>
+		const popupButton = document.getElementById('popupButtonVirus');
+		const popup = document.getElementById('popupVirus');
+		const closePopup = document.getElementById('closeButtonVirus');
+		const popupOverlay = document.getElementById('popupOverlayVirus');
+
+		popupButton.addEventListener('click', function() {
+			popup.style.display = 'block';
+			popupOverlay.style.display = 'block';
+		});
+
+			// Close popup and stop audio
+		const closePopupHandler = function() {
+			popup.style.display = 'none';
+			popupOverlay.style.display = 'none';
 		};
 
 		closePopup.addEventListener('click', closePopupHandler);
