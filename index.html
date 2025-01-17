@@ -6,6 +6,10 @@
 		<link rel="stylesheet" href="https://idylladrian.github.io/css/mimiindexlayout.css">
 		<link rel="stylesheet" href="https://unpkg.com/xp.css">
 		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
+		
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
 	</head>
 	
 	<body id=index-page>
@@ -133,17 +137,15 @@
 	</footer>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-		<div class="loader-wrapper">
-			<span class="loader"></span>
-		</div>
+	
+	<script>
+		$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
 	</script>
 	
 	
-	<script>
-			$(window).on("load",function(){
-				$(".loader-wrapper").fadeOut("slow");
-				});
-				
+	<script>	
 		const audioButton = document.querySelector('.btn-audio');
 		let audioInstance;
 
@@ -157,12 +159,10 @@
 				audioInstance.play();
 				this.classList.remove('is-inactive');
 				this.classList.add('is-active');
-				<!-- this.textContent = 'Pause Audio'; -->
 			} else {
 				audioInstance.pause();
 				this.classList.remove('is-active');
 				this.classList.add('is-inactive');
-				<!-- this.textContent = 'Play Audio'; -->
 			}
 		});
 	</script>
@@ -172,21 +172,27 @@
 		const popup = document.getElementById('popup');
 		const closePopup = document.getElementById('closeButton');
 		const popupOverlay = document.getElementById('popupOverlay');
+		
+		// Initialize the audio instance
+		const popupAudio = new Audio('https://idylladrian.github.io/audio/Never-Gonna-Give-You-Up.mp3'); // Replace with your audio URL
+		popupAudio.loop = true; // Enable looping if desired
 
 		popupButton.addEventListener('click', function() {
 			popup.style.display = 'block';
 			popupOverlay.style.display = 'block';
+			popupAudio.play(); // Play audio
 		});
 
-		closePopup.addEventListener('click', function() {
+			// Close popup and stop audio
+		const closePopupHandler = function() {
 			popup.style.display = 'none';
 			popupOverlay.style.display = 'none';
-		});
+			popupAudio.pause(); // Pause audio
+			popupAudio.currentTime = 0; // Reset audio to start
+		};
 
-		popupOverlay.addEventListener('click', function() {
-			popup.style.display = 'none';
-			popupOverlay.style.display = 'none';
-		});
+		closePopup.addEventListener('click', closePopupHandler);
+		popupOverlay.addEventListener('click', closePopupHandler);
 	</script>
 
 </html>
