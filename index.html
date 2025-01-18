@@ -3,33 +3,13 @@
 	<head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mimi's Web</title>
-		<!-- <link rel="stylesheet" href="C:\Users\idyll\OneDrive\Documents\idylladrian.github.io\css\mimiindexlayout.css"> -->
-		<link rel="stylesheet" href="https://idylladrian.github.io/css/mimiindexlayout.css" as="style">
+		<link rel="stylesheet" href="https://idylladrian.github.io/css/mimiindexlayout.css">
+		<link rel="stylesheet" href="https://unpkg.com/xp.css">
 		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
 		
-		<script>
-					// Check if the user is on a mobile device
-			function isMobile() {
-			  return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-			}
-
-			// Redirect based on device type
-			window.onload = function () {
-			  if (isMobile()) {
-				window.location.href = "https://adrianontheweb.net/index_mobile.html"; // Replace with your mobile URL
-			  }
-			};
-		</script>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<div class="loader-wrapper">
 			<span class="loader"></span>
 		</div>
-		<script>
-			$(window).on("load",function(){
-				$(".loader-wrapper").fadeOut("slow");
-				});
-		</script>
 	</head>
 	
 	<body id=index-page>
@@ -47,39 +27,34 @@
 			</div>
 		
 			<div id=head-bloc>
-				<a href="https://idylladrian.github.io/index_mobile.html" class=btn-mobile></a>
-				<a href="javascript:void(0)" class="btn-audio is-inactive" data-audio="https://adrianontheweb.com/audio/Super Mario 64 - Water Theme  Dire Dire Docks - HD.mp3" data-loop="true" data-mute-control="true"></a>
+				<a href="javascript:void(0)" class=btn-mobile></a>
+				<a href="javascript:void(0)" id=popupButton class=btn-trick></a>
+				<a href="javascript:void(0)" id=popupButtonVirus class=btn-virus></a>
+				<a href="javascript:void(0)" class="btn-audio" data-audio="https://idylladrian.github.io/audio/Super_Mario_64.mp3" data-loop="true" data-mute-control="true"></a>
 			</div>
 			<div id=navigation-panel>
-				<table id=nav-table border=0 cellspacing="10" cellpadding="10" summary="navigation menu">
-					<tr line-height="20px">
-						<td align=center nowrap valign="middle" width="15%"><a name="menu"></a>
-							<a href="https://idylladrian.github.io/portfolio.html"><img src="https://idylladrian.github.io/graphics/draw.gif" width="100%" alt="Artwork" border="0"></a>
-							<!-- also maybe include your high school portfolio if you can include it -->
+				<table id=nav-table summary="navigation menu">
+					<tr line-height="1.04vw">
+						<td align=center nowrap valign="bottom" width="15%"><a name="menu"></a>
+							<a href="https://idylladrian.github.io/portfolio.html"><img src="https://idylladrian.github.io/graphics/index/draw.gif" width="100%" alt="Artwork" border="0"></a>
+							<a href="https://idylladrian.github.io/portfolio.html"><p class='text-myth-fables'>Artwork</p></a>
 						</td>
-						<td align=center nowrap valign="middle" width="15%"><a name="menu"></a>
-							<a href="https://idylladrian.github.io/blog-tree.html"><img src="https://idylladrian.github.io/graphics/brainspin.gif" width="100%" alt="Blog" border="0"></a>
+						<td align=center nowrap valign="bottom" width="15%"><a name="menu"></a>
+							<a href="https://idylladrian.github.io/blog-tree.html"><img src="https://idylladrian.github.io/graphics/index/brainspin.gif" width="100%" alt="Blog" border="0"></a>
+							<a href="https://idylladrian.github.io/blog-tree.html"><p class='text-myth-fables'>Writing</p></a>
 						</td>
-						<td align=center nowrap valign="middle" width="40%"><a name="menu"></a>
+						<td align=center nowrap valign="bottom" width="40%"><a name="menu"></a>
 							<a href="https://idylladrian.github.io/index.html"><img src="https://idylladrian.github.io/graphics/mimiweblogo_index.png" width="100%" alt="Home Page" border="0"></a>
 						</td>
-						<td align=center nowrap valign="middle" width="15%"><a name="menu"></a>
-							<a href="https://idylladrian.github.io/contact-me.html"><img src="https://idylladrian.github.io/graphics/redemail.gif" width="100%" alt="Contact" border="0"></a>
+						<td align=center nowrap valign="bottom" width="15%"><a name="menu"></a>
+							<a href="https://idylladrian.github.io/interests.html"><img src="https://idylladrian.github.io/graphics/index/pyramid.gif" width="100%" alt="Contact" border="0"></a>
+							<a href="https://idylladrian.github.io/interests.html"><p class='text-myth-fables'>Interests</p></a>
 						</td>
-						<td align=center nowrap valign="middle" width="15%"><a name="menu"></a>
-							<a href="https://idylladrian.github.io/about-me.html"><img src="https://idylladrian.github.io/graphics/alien.gif" width="100%" alt="About" border="0"></a>
+						<td align=center nowrap valign="bottom" width="15%"><a name="menu"></a>
+							<a href="https://idylladrian.github.io/about-me.html"><img src="https://idylladrian.github.io/graphics/index/alien.gif" width="100%" alt="About" border="0"></a>
+							<a href="https://idylladrian.github.io/about-me.html" z-index="10"><p class='text-myth-fables'>About Me</p></a>
+						</td>
 					</tr>
-					<!--<tr>
-						<td colspan="2">
-							<img src="https://adrianontheweb.com/graphics/Glitter_stars.gif" width="100%" alt="Glittering Stars GIF" border="0">
-						</td>
-						<td align=center>
-							<img src="https://adrianontheweb.com/graphics/Glitter_stars.gif" width="100%" alt="Glittering Stars GIF" border="0">
-						</td>
-						<td colspan="2">
-							<img src="https://adrianontheweb.com/graphics/Glitter_stars.gif" width="100%" alt="Glittering Stars GIF" border="0">
-						</td>
-					</tr>-->
 				</table>
 			</div>
 			
@@ -100,61 +75,164 @@
 			<div class="graphic id-9"></div>
 			
 			<div id=welcome-text>
-				<h1 class="center block1">
-					<img src="https://idylladrian.github.io/graphics/email_pokemon.gif" />
-					Hi bbg! Welcome my <img src="https://idylladrian.github.io/graphics/new.gif"/> website <3
-				</h1>
-				<p class="center block1">
-					<br>
-					This is where I like to express my creativity and some of my work.
-					<br>Please take a look around and reach out if you wanna chat!
-					<br>
-					<br>Below you can see what I'm obsessed with and what I hate right now.
-					<br>
-				</p>
-
-				<table id="hot-not-table" border=1 cellspacing="10">
-					<tr>
-						<th width="20%" rowspan=3>
-							<img src="https://idylladrian.github.io/graphics/angelflutder.gif">
-						</th>
-						<th width="30%">
-							<p><b>¡OBSESSED!</b></p>
-						</th>
-						<th width="30%">
-							<p><b>¡HATE!</b></p>
-						</th>
-						<th width="20%" rowspan=3>
-							<img src="https://idylladrian.github.io/graphics/angelflutder.gif" style="transform: scaleX(-1)">
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<img src="https://idylladrian.github.io/graphics/temp/dave.webp" width="200px" >
-							<p>Dave Bautista</p>
-						</td>
-						<td>
-							<img src="https://idylladrian.github.io/graphics/temp/rock.webp" width="200px">
-							<p>The Rock</p>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>This is what I'm obsessed with<br>right now.</p>
-						</td>
-						<td>
-							<p>This is what I hate right now.</p>
-						</td>
-					</tr>
-					<tr>
-						<td colspan=4>
-							<p><font size="1">Updated: 7/14/2024</font></p>
-						</td>
-					</tr>
-				</table>
+				<div class="center block1">
+					<h1>
+						<img src="https://idylladrian.github.io/graphics/index/email_pokemon.gif" class="pokemon-inline">
+						Hi bbg! Welcome my <img src="https://idylladrian.github.io/graphics/index/new.gif" class="new-inline"> website!
+					</h1>
+					<p class="center-block-text">
+						This is where I like to express my creativity and some of my work.
+						<br>Please take a look around and reach out if you wanna chat!
+						<br>
+						<br>
+					</p>
+				</div>
+				
+				<hr width="52vw">
+				
+				<div class="seasonal">
+					<p class="seasonal-text">
+						It is winter. The time of year when the trees are bare, the rivers freeze, and everyone moves about their days in sluggish manner. 
+						For my creative practice, this is the period of time when I slow down on creation. I enjoy the feeling of fullness from eating
+						yummy food and digesting inpirational, creative content. I am taking long walks in the snow and ice skating whenever possible.
+						I hope you are also allowing yourself to be impacted by the colder weather. 
+					</p>
+					<img src="https://idylladrian.github.io/graphics/index/virgen_blue.png" class="virgen-stamp"> 
+				</div>
 			</div>
 			
-			<div class="graphic id-10"></div>
+			<!-- <div class="graphic id-10"></div> -->
 		</div>
+		
+		<div class="popup-overlay" id="popupOverlay"></div>
+		<div class="popup" id="popup">
+			<div class="window" style="width: 80vw;">
+			  <div class="title-bar">
+				<div class="title-bar-text">You just got RICKROLLED baby!</div>
+				<div class="title-bar-controls">
+				  <button aria-label="Minimize"></button>
+				  <button aria-label="Maximize"></button>
+				  <button aria-label="Close" id="closeButton"></button>
+				</div>
+			  </div>
+			  <div class="window-body">
+				<img src="https://idylladrian.github.io/graphics/index/Rick_Astley.gif" style="width: 50vw; height: 37.5;"/>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="popup-overlay" id="popupOverlayVirus"></div>
+		<div class="popup" id="popupVirus">
+			<div class="window" style="width: 50vw;">
+				<div class="title-bar">
+					<div class="title-bar-text">UH OH!</div>
+					<div class="title-bar-controls">
+					  <button aria-label="Minimize"></button>
+					  <button aria-label="Maximize"></button>
+					  <button aria-label="Close" id="closeButtonVirus"></button>
+					</div>
+				</div>
+				<div class="window-body" style="color: black;">
+					<h2>You just clicked on a virus.<br>Your computer is getting pregnant!<h2>
+					<img src="https://idylladrian.github.io/graphics/index/sperm.gif"/>
+					<img src="https://idylladrian.github.io/graphics/index/loading.gif"/>
+				</div>
+			</div>
+		</div>
+
 	</body>
+	
+	<footer>
+		<div class="graphic id-10"></div>
+		<table>
+			<tr>
+				<td width="20%"></td>
+				<td width="20%"><img src="https://idylladrian.github.io/graphics/index/advertisement1495.gif" style="width: 20vw"/></td>
+				<td width="20%"><img src="https://idylladrian.github.io/graphics/index/Banner6.gif" style="width: 20vw"/></td>
+				<td width="20%"><img src="https://idylladrian.github.io/graphics/index/ani_advertisement.gif" style="width: 20vw"/></td>
+				<td width="20%"></td>
+			</tr>
+		</table>
+	</footer>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+	<script>
+		$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+	</script>
+	
+	
+	<script>	
+		const audioButton = document.querySelector('.btn-audio');
+		let audioInstance;
+
+		audioButton.addEventListener('click', function() {
+			if (!audioInstance) {
+				audioInstance = new Audio(this.getAttribute('data-audio'));
+				audioInstance.loop = this.getAttribute('data-loop') === 'true';
+			}
+
+			if (audioInstance.paused) {
+				audioInstance.play();
+				this.classList.remove('is-inactive');
+				this.classList.add('is-active');
+			} else {
+				audioInstance.pause();
+				this.classList.remove('is-active');
+				this.classList.add('is-inactive');
+			}
+		});
+	</script>
+	
+	<script>
+		const popupButton = document.getElementById('popupButton');
+		const popup = document.getElementById('popup');
+		const closePopup = document.getElementById('closeButton');
+		const popupOverlay = document.getElementById('popupOverlay');
+		
+		// Initialize the audio instance
+		const popupAudio = new Audio('https://idylladrian.github.io/audio/Never-Gonna-Give-You-Up.mp3'); // Replace with your audio URL
+		popupAudio.loop = true; // Enable looping if desired
+
+		popupButton.addEventListener('click', function() {
+			popup.style.display = 'block';
+			popupOverlay.style.display = 'block';
+			popupAudio.play(); // Play audio
+		});
+
+			// Close popup and stop audio
+		const closePopupHandler = function() {
+			popup.style.display = 'none';
+			popupOverlay.style.display = 'none';
+			popupAudio.pause(); // Pause audio
+			popupAudio.currentTime = 0; // Reset audio to start
+		};
+
+		closePopup.addEventListener('click', closePopupHandler);
+		popupOverlay.addEventListener('click', closePopupHandler);
+	</script>
+	
+	<script>
+		const popupButtonVirus = document.getElementById('popupButtonVirus');
+		const popupVirus = document.getElementById('popupVirus');
+		const closePopupVirus = document.getElementById('closeButtonVirus');
+		const popupOverlayVirus = document.getElementById('popupOverlayVirus');
+
+		popupButtonVirus.addEventListener('click', function() {
+			popupVirus.style.display = 'block';
+			popupOverlayVirus.style.display = 'block';
+		});
+
+			// Close popup and stop audio
+		const closePopupHandlerVirus = function() {
+			popupVirus.style.display = 'none';
+			popupOverlayVirus.style.display = 'none';
+		};
+
+		closePopupVirus.addEventListener('click', closePopupHandlerVirus);
+		popupOverlayVirus.addEventListener('click', closePopupHandlerVirus);
+	</script>
+
 </html>
