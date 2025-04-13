@@ -291,7 +291,7 @@ body::before {
 	vertical-align: center;
 	border: 3px solid white;
 	/* padding-bottom: 20px; */
-	width: 52vw;
+	width: 70vw;
 	color: white;
 }
 
@@ -309,7 +309,7 @@ body::before {
 	z-index: 0;
 	float: none;
 	/* max-width: 1920px; */
-	width: 52vw;
+	width: 70vw;
 }
 }
 
