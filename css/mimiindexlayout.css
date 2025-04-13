@@ -668,7 +668,7 @@ body::before {
 	color: #e2e8f0;
 	background-color: #152c41;
 	white-space: nowrap;
-	background-image: url('https://idylladrian.github.io/graphics/index/guadalupe-small.png');
+	background-image: url('https://idylladrian.github.io/graphics/index/guadalupe-small2.png');
 	background-position: center;
 	background-size: 10.4vw 3.64vw;
 	background-repeat: repeat-x;
@@ -676,7 +676,6 @@ body::before {
 	height: 3.64vw;
 	left: 0px;
 	top: 0px;
-	animation: pan 20s linear infinite;
 }
 
 .gracias-roll {
