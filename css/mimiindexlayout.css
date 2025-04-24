@@ -700,8 +700,8 @@ body::before {
 	background: rgba(245, 66, 144, 0.3);
 	padding-left: 19.4vw;
 	padding-right: 19.4vw;
-	padding-top: 20.8vw;
-	padding-bottom: 10.4vw;
+	padding-top: 5.2vw;
+	padding-bottom: 5.2vw;
 	width: 31.2vw; /* Set width of the <div> */
 	height: 31.2vw; /* Set height of the <div> */
 	background-image: url('https://idylladrian.github.io/graphics/index/winter.jpeg'); /* Replace with your image URL */
