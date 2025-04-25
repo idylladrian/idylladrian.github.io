@@ -102,6 +102,22 @@ p {
 	text-align: left center;
 }
 
+.year-range.2017 {
+	height: 27vw;
+}
+
+.year-range.2018 {
+	height: 37vw;
+}
+
+.year-range.2022 {
+	height: 27vw;
+}
+
+.year-range.2024 {
+	height: 10vw;
+}
+
 .graphic {
 	display: block;
 	position: absolute;
