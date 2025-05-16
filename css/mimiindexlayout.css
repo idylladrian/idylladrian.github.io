@@ -740,4 +740,10 @@ body::before {
 .new-inline {
 	width: 7vw;
 }
+
+/* webring-css { */
+  /* display: block; */
+  /* position: relative; */
+  /* max-width: 600px; */
+  /* margin: 1rem auto; */
 /* } */
