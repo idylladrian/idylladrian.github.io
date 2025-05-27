@@ -45,6 +45,13 @@ fetch('https://adrianontheweb.net/catskill-webring/webring.json')
 		color: white; /* optional for contrast */
 		margin-left: auto;
 		margin-right: auto;
+		
+		@media (max-width: 600px) {
+			background-size: 40vw 20vw;
+			width: 40vw;
+			height: 20vw;	
+		}
+		
 	  ">
 		<div style="
 			position: relative;
@@ -53,6 +60,9 @@ fetch('https://adrianontheweb.net/catskill-webring/webring.json')
 			width: 50%;
 			text-align: right;
 			font-size: 1.5vw;
+			@media (max-width: 600px) {
+				font-size: 3vw;
+			}
 		">
 			<a href="${prevSite.url}" style="margin: 0 1em; color: white; text-shadow: 0 0 2px black;">⬅ Prev</a><br>
 			<a href="${getRandomSite(webringSites, currentIndex).url}" style="margin: 0 1em; color: white; text-shadow: 0 0 2px black;">Random</a><br>

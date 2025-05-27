@@ -607,31 +607,7 @@ body::before {
             width: 100px;
             height: auto;
         }
-		
-@media (max-width: 600px) {
-	.btn-mobile {
-		display: none;
-	}
 	
-	.btn-audio {
-		display: none;
-	}
-	
-	.btn-trick {
-		display: none;
-	}
-	
-	.btn-virus {
-		display: none;
-	}	
-	.center.block1 {
-		width: 90%;
-	}
-	
-	#navigation-panel {
-		width: 90%;
-	}
-}
 
 #container {
 	width: 100%;
@@ -764,6 +740,69 @@ body::before {
 
 .new-inline {
 	width: 7vw;
+}
+
+@media (max-width: 600px) {
+	.btn-mobile {
+		display: none;
+	}
+	
+	.btn-audio {
+		display: none;
+	}
+	
+	.btn-trick {
+		display: none;
+	}
+	
+	.btn-virus {
+		display: none;
+	}	
+	.center.block1 {
+		width: 90%;
+	}
+	
+	#navigation-panel {
+		width: 90%;
+	}
+	
+	.seasonal {
+		padding: 0;
+		background-size: 90vw 90vw;
+		width: 90vw;
+		height: 90vw;
+	}
+	.seasonal-text {
+		font-size: 3vw;
+		padding: 10vw;
+		padding-bottom: 0vw;
+	}
+	
+	.virgen-stamp {
+		width: 20vw;
+	}
+	
+	.text-myth-fables {
+		font-size: 2.5vw;
+	}
+	
+	#index-page {
+		h1 {
+			font-size: 9vw;
+		}
+	}
+	
+	.center-block-text {
+		font-size: 3vw;
+	}
+	
+	.pokemon-inline {
+		width: 10vw;
+	}
+
+	.new-inline {
+		width: 14vw;
+	}
 }
 
 /* webring-css { */
