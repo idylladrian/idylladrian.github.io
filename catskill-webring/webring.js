@@ -1,64 +1,53 @@
-// webring.js
-const DATA_FOR_WEBRING = "webring.json";
-
-class WebRing extends HTMLElement {
-  constructor() {
-    super();
-    this.attachShadow({ mode: "open" });
-  }
-
-  async connectedCallback() {
-    const siteURL = this.getAttribute("site");
-
-    try {
-      const res = await fetch(DATA_FOR_WEBRING);
-      const sites = await res.json();
-      const matchedIndex = sites.findIndex((s) => s.url === siteURL);
-
-      if (matchedIndex === -1) {
-        this.shadowRoot.innerHTML = `<p>Site not found in webring.</p>`;
-        return;
-      }
-
-      const prev = (matchedIndex - 1 + sites.length) % sites.length;
-      const next = (matchedIndex + 1) % sites.length;
-      const random = Math.floor(Math.random() * sites.length);
-
-      this.shadowRoot.innerHTML = `
-        <style>
-          .webring {
-            font-family: system-ui, sans-serif;
-            border: 2px solid black;
-            padding: 1rem;
-            max-width: 500px;
-            margin: 2rem auto;
-            background: #fff;
-            color: #000;
-            text-align: center;
-			width: 100%;
-			height: 100px;
-          }
-          a { color: blue; text-decoration: none; }
-          a:hover { text-decoration: underline; }
-        </style>
-        <div class="webring">
-          <h3>The Great CSS Webring</h3>
-          <p>
-            This <a href="${sites[matchedIndex].url}">${sites[matchedIndex].name}</a>
-            site is owned by ${sites[matchedIndex].owner}.
-          </p>
-          <p>
-            <a href="${sites[prev].url}">[Prev]</a> |
-            <a href="${sites[next].url}">[Next]</a> |
-            <a href="${sites[random].url}">[Random]</a>
-          </p>
-        </div>
-      `;
-    } catch (err) {
-      this.shadowRoot.innerHTML = `<p>Error loading webring data.</p>`;
-      console.error("Webring error:", err);
-    }
-  }
+function getRandomSite(sites, excludeIndex) {
+  let idx;
+  do {
+    idx = Math.floor(Math.random() * sites.length);
+  } while (idx === excludeIndex); // avoid random = current site
+  return sites[idx];
 }
+fetch('https://adrianontheweb.net/catskill-webring/webring.json')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load webring.json");
+    return response.json();
+  })
+  .then(webringSites => {
+    console.log("Webring sites loaded:", webringSites);
 
-customElements.define("webring-css", WebRing);
+    const currentUrl = window.location.href;
+    const currentIndex = webringSites.findIndex(site => currentUrl.includes(site.url));
+    console.log("currentUrl:", currentUrl);
+    console.log("currentIndex:", currentIndex);
+
+    if (currentIndex === -1) throw new Error("Current site not found in webring");
+
+    const total = webringSites.length;
+    const prevIndex = (currentIndex - 1 + total) % total;
+    const nextIndex = (currentIndex + 1) % total;
+
+    const prevSite = webringSites[prevIndex];
+    const nextSite = webringSites[nextIndex];
+
+    const container = document.getElementById('webring');
+    if (!container) throw new Error("No #webring container found in DOM");
+
+    container.innerHTML = `
+	  <nav style="margin: 1em 0; 
+	  padding: 0.5em; 
+	  border: 1px solid #ccc; 
+	  border-radius: 8px; 
+	  text-align: center;
+	  background-image: url('/catskill-webring/webring.jpg'); 
+	  background-size: 600px 300px;
+	  ">
+		<strong>Catskill Webring</strong><br><br>
+		<a href="${prevSite.url}" style="margin: 0 1em;">⬅ Prev</a>
+		<a href="${getRandomSite(webringSites, currentIndex).url}" style="margin: 0 1em;">🎲 Random</a>
+		<a href="${nextSite.url}" style="margin: 0 1em;">Next ➡</a>
+	  </nav>
+	`;
+  })
+  .catch(error => {
+    console.error("Webring error:", error);
+    const container = document.getElementById('webring');
+    if (container) container.innerText = "Failed to load webring data.";
+  });
