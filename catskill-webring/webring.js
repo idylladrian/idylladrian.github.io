@@ -31,18 +31,33 @@ fetch('https://adrianontheweb.net/catskill-webring/webring.json')
     if (!container) throw new Error("No #webring container found in DOM");
 
     container.innerHTML = `
-	  <nav style="margin: 1em 0; 
-	  padding: 0.5em; 
-	  border: 1px solid #ccc; 
-	  border-radius: 8px; 
-	  text-align: center;
-	  background-image: url('/catskill-webring/webring.jpg'); 
-	  background-size: 600px 300px;
+	  <nav style="
+		// margin: 1em 0;
+		// padding: 1.5em; 
+		border: 1px solid #ccc;
+		// border-radius: 8px;
+		// text-align: right;
+		background-image: url('https://adrianontheweb.net/catskill-webring/webring.jpg');
+		background-size: 20vw 10vw;
+		background-position: center;
+		width: 20vw;
+		height: 10vw;
+		color: white; /* optional for contrast */
+		margin-left: auto;
+		margin-right: auto;
 	  ">
-		<strong>Catskill Webring</strong><br><br>
-		<a href="${prevSite.url}" style="margin: 0 1em;">⬅ Prev</a>
-		<a href="${getRandomSite(webringSites, currentIndex).url}" style="margin: 0 1em;">🎲 Random</a>
-		<a href="${nextSite.url}" style="margin: 0 1em;">Next ➡</a>
+		<div style="
+			position: relative;
+			left: 45%;
+			top: 20%;
+			width: 50%;
+			text-align: right;
+			font-size: 1.5vw;
+		">
+			<a href="${prevSite.url}" style="margin: 0 1em; color: white; text-shadow: 0 0 2px black;">⬅ Prev</a><br>
+			<a href="${getRandomSite(webringSites, currentIndex).url}" style="margin: 0 1em; color: white; text-shadow: 0 0 2px black;">Random</a><br>
+			<a href="${nextSite.url}" style="margin: 0 1em; color: white; text-shadow: 0 0 2px black;">Next ➡</a>
+		</div>
 	  </nav>
 	`;
   })

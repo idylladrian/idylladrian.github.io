@@ -607,6 +607,31 @@ body::before {
             width: 100px;
             height: auto;
         }
+		
+@media (max-width: 600px) {
+	.btn-mobile {
+		display: none;
+	}
+	
+	.btn-audio {
+		display: none;
+	}
+	
+	.btn-trick {
+		display: none;
+	}
+	
+	btn-virus {
+		display: none;
+	}	
+	.center.block1 {
+		display: none;
+	}
+	
+	#navigation-panel {
+		display: none;
+	}
+}
 
 #container {
 	width: 100%;
