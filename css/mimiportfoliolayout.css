@@ -26,6 +26,7 @@ p {
 	background: #fff8e3;
 	
 	image-rendering: pixelated;
+	width: 100vw;
 	/* overflow: hidden; */
 }
 
@@ -93,6 +94,12 @@ p {
 #head-bloc {
 	/* height: 550px; */
 	height: 51vw;
+	td {
+		align-content: center;
+	}
+}
+
+#port-table {
 }
 
 .year-range {
@@ -102,28 +109,21 @@ p {
 	text-align: left center;
 }
 
-.year-range.2017 {
-	height: 27vw;
+.year-range.post-pandemic {
 }
 
-.year-range.2018 {
-	height: 37vw;
+.year-range.pre-pandemic {
+	width: 90vw;
 }
 
-.year-range.2022 {
-	height: 27vw;
-}
-
-.year-range.2024 {
-	height: 10vw;
-}
 
 .graphic {
 	display: block;
 	position: absolute;
-	left: 50%;
+	/* left: 50%; */
 	background-repeat: no-repeat;
 	background-origin: content-box;
+	margin: auto;
 }
 
 .graphic.id-0 {
@@ -141,138 +141,153 @@ p {
 	width: 37vw;
 	height: 35vw;
 	z-index: 999;
+	left: 50%;
 	margin-left: -37vw;
 	top: 9vw;
 }
 
 .graphic.id-2 {
+	/* position: relative; */
 	background-image: url('https://idylladrian.github.io/graphics/belongintrash.png');
 	background-size: 37vw 30vw;
 	background-position: center;
 	width: 37vw;
 	height: 35vw;
 	z-index: 999;
+	left: 50%;
 	margin-left: 1vw;
 	top: 11vw;
 }
 
 .graphic.id-3 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/photo-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 22vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -37vw;
-	top: 0px;
+	margin: auto;
+	/* margin-left: -37vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-4 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/fruit-framed.png');
 	background-size: 74vw 42vw;
 	background-position: center;
-	width: 74vw;
+	width: 57vw;
 	height: 42vw;
 	z-index: 999;
-	margin-left: -9vw;
-	top: 0px;
+	/* margin-left: -9vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-5 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/skele-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 30vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -56vw;
-	top: 0px;
+	/* margin-left: -56vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-6 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/sugar-babe-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 30vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -32vw;
-	top: 0px;
+	/* margin-left: -32vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-7 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/sad-pengu-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 28vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -46vw;
-	top: 19vw;
+	/* margin-left: -46vw; */
+	/* top: 19vw; */
 }
 
 .graphic.id-8 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/oscar-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 30vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: 19vw;
-	top: 0px;
+	/* margin-left: 19vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-9 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/elly-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 30vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: 28vw;
-	top: 20vw;
+	/* margin-left: 28vw; */
+	/* top: 20vw; */
 }
 
 .graphic.id-10 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/egg-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 27vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: 0;
-	top: 37vw;
+	/* margin-left: 0; */
+	/* top: 37vw; */
 }
 
 .graphic.id-11 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/book_framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 30vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -4vw;
-	top: 0px;
+	/* margin-left: -4vw; */
+	/* top: 0px; */
 }
 
 .graphic.id-12 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/tims-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
 	width: 37vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -7vw;
-	top: 19vw;
+	/* margin-left: -7vw; */
+	/* top: 19vw; */
 }
 
 .graphic.id-13 {
+	position: relative;
 	background-image: url('https://idylladrian.github.io/graphics/kitty-framed.png');
 	background-size: 37vw 21vw;
 	background-position: center;
-	width: 37vw;
+	width: 21vw;
 	height: 21vw;
 	z-index: 999;
-	margin-left: -19vw;
-	top: 0px;
+	/* margin-left: -19vw; */
+	/* top: 0px; */
 }
