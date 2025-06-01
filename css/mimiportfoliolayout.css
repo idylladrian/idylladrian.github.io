@@ -291,3 +291,13 @@ p {
 	/* margin-left: -19vw; */
 	/* top: 0px; */
 }
+
+.graphic.id-14 {
+	position: relative;
+	background-image: url('https://idylladrian.github.io/graphics/riverfishstudy1.png');
+	background-size: 64vw 51vw;
+	background-position: center;
+	width: 64vw;
+	height: 51vw;
+	z-index: 999;
+}
