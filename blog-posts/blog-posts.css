@@ -1,4 +1,25 @@
 #blog-post {
+	
+	A:link { 
+	text-decoration: none; 
+	color: white; 
+	}
+
+	A:visited { 
+		text-decoration: none; 
+		color: white; 
+	}
+
+	A:active { 
+		text-decoration: none; 
+		color: white; 
+	}
+
+	A:hover { 
+		text-decoration: none; 
+		color:#0000ff;
+	}
+	
 	h1 {
 		font-family: Times New Roman, serif;
 		font-weight: normal;
