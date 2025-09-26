@@ -227,9 +227,11 @@ body::before {
       left: 0;
       width: 100vw;
       height: 100vh;
-      background-image: url('https://idylladrian.github.io/graphics/index_background.jpg'); /* Replace with your image */
-      background-size: cover;
+      background-image: url('https://idylladrian.github.io/graphics/forest.jpg'); /* Replace with your image */
+      background-size: contain;
+	  background-repeat: no-repeat;	
       background-position: center;
+	  background-color: black;
       z-index: -1; /* Pushes it behind everything else */
 }
 
@@ -339,124 +341,15 @@ body::before {
 	background-origin: content-box;
 }
 
-.graphic.id-1 {
+.graphic.id-1_example {
 	background-image: url('https://idylladrian.github.io/graphics/index/stars.gif');
 	width: 1.04vw;
 	height: 4.368vw;
 	z-index: 999;
 }
 
-.graphic.id-1.a {
-	margin-left: -16.9vw;
-	top: 200px;
-}
-
-.graphic.id-1.b {
-	margin-left: -12.22vw;
-	top: 13.52vw;
-}
-
-.graphic.id-2 {
-	background-image: url('https://idylladrian.github.io/graphics/index/Stars(1).gif');
-	width: 1.56vw;
-	height: 4.368vw;
-	margin-left: -6.76vw;
-	top: 11.96vw;
-	z-index: 999;
-}
-
-.graphic.id-3 {
-	background-image: url('https://idylladrian.github.io/graphics/index/stars2.gif');
-	width: 3.12vw;
-	height: 4.368vw;
-	margin-left: -2.6vw;
-	top: 6.76vw;
-	z-index: 999;
-}
-
-.graphic.id-4 {
-	background-image: url('https://idylladrian.github.io/graphics/index/starsg.gif');
-	width: 1.56vw;
-	height: 4.368vw;
-	margin-left: 3.38vw;
-	top: 12.48vw;
-}
-
-.graphic.id-5 {
-	background-image: url('https://idylladrian.github.io/graphics/index/twinkystarsred.gif');
-	width: 1.04vw;
-	height: 8.528vw;
-}
-
-.graphic.id-5.a {
-	margin-left: 20.8vw;
-	top: 12.48vw;
-}
-
-.graphic.id-5.b {
-	margin-left: 20.384vw;
-	top: 10.4vw;
-}
-
-.graphic.id-5.c {
-	margin-left: 21.216vw;
-	top: 10.4vw;
-}
-
-.graphic.id-5.d {
-	margin-left: 20.904vw;
-	top: 8.06vw;
-}
-
-.graphic.id-6 {
-	background-image: url('https://idylladrian.github.io/graphics/index/flamNEW.gif');
-	width: 2.912vw;
-	height: 1.768vw;
-	margin-left: 3.9vw;
-	left: 50%;
-	top: 8.84vw;
-}
-
-.graphic.id-7 {
-	background-image: url('https://idylladrian.github.io/graphics/index/moon.gif');
-	width: 5.2vw;
-	height: 5.2vw;
-	margin-left: 7.8vw;
-	left: 50%;
-	top: 6.24vw;
-}
-
-.graphic.id-8 {
-	background-image: url('https://idylladrian.github.io/graphics/index/Twinkle.gif');
-	background-size: 16.64vw 10.4vw;
-	background-repeat: repeat;
-	width: 100%;
-	height: 15.6vw;
-	margin-left: -50%;
-	left: 50%;
-	top: 5.2vw;
-	z-index: -1;
-}
-
-.graphic.id-9 {
-	background-image: url('https://idylladrian.github.io/graphics/index/x-hikashi3.gif');
-	position: fixed;
-	width: 3.068vw;
-	height: 1.248vw;
-	margin-top: -1.56vw;
-	left: 95%;
-	top: 100%;
-}
-
-.graphic.id-10 {
-	background-image: url('https://idylladrian.github.io/graphics/index/fire.gif');
-	background-repeat: repeat-x;
-	position: relative;
-	width: 100vw;
-	height: 5%;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+.graphic.id-1 {
+	background-image: url('https://images.squarespace-cdn.com/content/v1/677c059dd4b0fa0145961af9/58881ebd-5efa-4217-8279-3881bfe548e0/favicon.ico');
 }
 
 @media only screen and (max-width: 1150px) {
