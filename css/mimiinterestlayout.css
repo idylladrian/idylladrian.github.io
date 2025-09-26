@@ -1,0 +1,813 @@
+@import url('https://use.typekit.net/qkd0qog.css');
+@import url('https://unpkg.com/xp.css@/dist/98.css')
+
+/* 1px = 0.052vw*/
+
+.text-pixel-arcade {
+	/* display: block; */
+	font-family: "cc-pixel-arcade-cartridge", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.text-flame-nova {
+	/* display: block; */
+	font-family: "cc-flame-on-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.text-myth-fables {
+	/* display: block; */
+	font-family: "cc-near-myth-fables", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.04vw;
+	/* color: #FFFFFF; */
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+	z-index: 999;
+}
+
+.text-monstrocity {
+	/* display: block; */
+	font-family: "cc-monstrosity-hide", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.Chaparral-Pro-Regular {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* @media screen  */
+/* and (min-device-width: 1200px)  */
+/* and (-webkit-min-device-pixel-ratio: 1) { */
+A:link { 
+	text-decoration: underline; 
+	color: white; 
+}
+
+A:visited { 
+	text-decoration: underline; 
+	color: white; 
+}
+
+A:active { 
+	text-decoration: underline; 
+	color: white; 
+}
+
+A:hover { 
+	text-decoration: underline; 
+	color:#0000ff;
+}
+
+h1 {
+	font-family: arial;
+	color: #6600ff 
+}
+
+p {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+	/* color: #FFFFFF; */
+	margin-top: 0px;
+}
+
+#index-page {
+	h1 {
+		font-family: "cc-flame-on", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 3.38vw;
+		color: #FFFFFF;
+		margin-bottom: 0px;
+	}
+	
+	h2 {
+		font-family: "cc-monstrosity-hide", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 3.38vw;
+		color: black;
+		margin-bottom: 0px;
+	}
+	
+	cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;
+	-webkit-ind-animation: cursor 400ms infinite;
+	animation: cursor 400ms infinite;
+	
+	image-rendering: pixelated;
+}
+
+@-webkit-ind-keyframes cursor {
+  0% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-1.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-0.gif'), auto;}
+  100% {cursor: url('https://idylladrian.github.io/graphics/index/hottie-1.gif'), auto;}
+}
+
+body::before {
+      content: "";
+      position: fixed; /* Keeps it fixed even on iOS */
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('https://idylladrian.github.io/graphics/index_background.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      z-index: -1; /* Pushes it behind everything else */
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.loader {
+	display: block;
+	background-image: url('https://idylladrian.github.io/graphics/frog_loader.gif');
+	width: 5.2vw;
+	height: 3.9vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 4.16vw;
+	animation: loader 0.9s infinite ease;
+}
+
+@keyframes loader {
+	0% { transform: translateX(0px);}
+	7% { transform: translateX(-1.56vw);}
+	14% { transform: translateX(-2.6vw);}
+	21% { transform: translateX(-4.16vw);}
+	28% { transform: translateX(-5.72vw);}
+	35% { transform: translateX(-6.24vw);}
+	42% { transform: translateX(-6.76vw);}
+	49% { transform: translateX(-7.28vw);}
+	56% { transform: translateX(-7.8vw);}
+	63% { transform: translateX(-7.8vw);}
+	70% { transform: translateX(-7.8vw);}
+	77% { transform: translateX(-7.8vw);}
+	84% { transform: translateX(-7.8vw);}
+	91% { transform: translateX(-3.12vw);}
+	100% { transform: translateX(0px);}
+}
+
+.content {
+	display: block;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center.block1 {
+	background: rgba(245, 66, 144, 0.3);
+	text-align: center;
+	vertical-align: center;
+	border: 3px solid white;
+	/* padding-bottom: 20px; */
+	width: 70vw;
+	color: white;
+}
+
+#head-bloc {
+	height: 4.16vw;
+}
+
+#navigation-panel {
+	/* position: relative; */
+	left: 0px;
+	top: 0px;
+	margin-top: 1.04vw;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+	float: none;
+	/* max-width: 1920px; */
+	width: 70vw;
+}
+}
+
+#welcome-text {
+	left: 50%;
+}
+
+#hot-not-table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#nav-table {
+	vertical-align: top;
+	
+	td, th { /* table cells */
+		padding: .52vw;
+	}
+}
+
+.graphic {
+	display: block;
+	position: absolute;
+	left: 50%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+}
+
+.graphic.id-1 {
+	background-image: url('https://idylladrian.github.io/graphics/index/stars.gif');
+	width: 1.04vw;
+	height: 4.368vw;
+	z-index: 999;
+}
+
+.graphic.id-1.a {
+	margin-left: -16.9vw;
+	top: 200px;
+}
+
+.graphic.id-1.b {
+	margin-left: -12.22vw;
+	top: 13.52vw;
+}
+
+.graphic.id-2 {
+	background-image: url('https://idylladrian.github.io/graphics/index/Stars(1).gif');
+	width: 1.56vw;
+	height: 4.368vw;
+	margin-left: -6.76vw;
+	top: 11.96vw;
+	z-index: 999;
+}
+
+.graphic.id-3 {
+	background-image: url('https://idylladrian.github.io/graphics/index/stars2.gif');
+	width: 3.12vw;
+	height: 4.368vw;
+	margin-left: -2.6vw;
+	top: 6.76vw;
+	z-index: 999;
+}
+
+.graphic.id-4 {
+	background-image: url('https://idylladrian.github.io/graphics/index/starsg.gif');
+	width: 1.56vw;
+	height: 4.368vw;
+	margin-left: 3.38vw;
+	top: 12.48vw;
+}
+
+.graphic.id-5 {
+	background-image: url('https://idylladrian.github.io/graphics/index/twinkystarsred.gif');
+	width: 1.04vw;
+	height: 8.528vw;
+}
+
+.graphic.id-5.a {
+	margin-left: 20.8vw;
+	top: 12.48vw;
+}
+
+.graphic.id-5.b {
+	margin-left: 20.384vw;
+	top: 10.4vw;
+}
+
+.graphic.id-5.c {
+	margin-left: 21.216vw;
+	top: 10.4vw;
+}
+
+.graphic.id-5.d {
+	margin-left: 20.904vw;
+	top: 8.06vw;
+}
+
+.graphic.id-6 {
+	background-image: url('https://idylladrian.github.io/graphics/index/flamNEW.gif');
+	width: 2.912vw;
+	height: 1.768vw;
+	margin-left: 3.9vw;
+	left: 50%;
+	top: 8.84vw;
+}
+
+.graphic.id-7 {
+	background-image: url('https://idylladrian.github.io/graphics/index/moon.gif');
+	width: 5.2vw;
+	height: 5.2vw;
+	margin-left: 7.8vw;
+	left: 50%;
+	top: 6.24vw;
+}
+
+.graphic.id-8 {
+	background-image: url('https://idylladrian.github.io/graphics/index/Twinkle.gif');
+	background-size: 16.64vw 10.4vw;
+	background-repeat: repeat;
+	width: 100%;
+	height: 15.6vw;
+	margin-left: -50%;
+	left: 50%;
+	top: 5.2vw;
+	z-index: -1;
+}
+
+.graphic.id-9 {
+	background-image: url('https://idylladrian.github.io/graphics/index/x-hikashi3.gif');
+	position: fixed;
+	width: 3.068vw;
+	height: 1.248vw;
+	margin-top: -1.56vw;
+	left: 95%;
+	top: 100%;
+}
+
+.graphic.id-10 {
+	background-image: url('https://idylladrian.github.io/graphics/index/fire.gif');
+	background-repeat: repeat-x;
+	position: relative;
+	width: 100vw;
+	height: 5%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 1150px) {
+	.graphic.id-9 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.graphic.id-1.a {
+		display: none;
+	}
+	.graphic.id-1.b {
+		display: none;
+	}
+	.graphic.id-2 {
+		display: none;
+	}
+	.graphic.id-3 {
+		display: none;
+	}
+	.graphic.id-4 {
+		display: none;
+	}
+	.graphic.id-5.a {
+		display: none;
+	}
+	.graphic.id-5.b {
+		display: none;
+	}
+	.graphic.id-5.c {
+		display: none;
+	}
+	.graphic.id-5.d {
+		display: none;
+	}
+	.graphic.id-6 {
+		display: none;
+	}
+	.graphic.id-7 {
+		display: none;
+	}
+}
+
+.btn-mobile {
+	width: 10.4vw;
+	height: 2.288vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 21vw; /*5.72*/
+	left: 1vw; /*0.52*/
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/button_mobile.gif');
+	background-size: 10.4vw 2.288vw;
+}
+
+.btn-audio {
+	width: 4.16vw;
+	height: 4.16vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 21vw;
+	right: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/ico-audio.png');
+	background-size: 4.16vw;
+}
+
+.btn-trick {
+	width: 8.6vw;
+	height: 6vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 24vw;
+	left: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/click.gif');
+	background-size: 8.6vw 6vw;
+}
+
+.btn-virus {
+	width: 11.4vw;
+	height: 7.5vw;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 33vw;
+	left: 1vw;
+	z-index: 999;
+	background-image: url('https://idylladrian.github.io/graphics/index/antivirus.gif');
+	background-size: 11.4vw 7.5vw;
+}
+
+.btn-audio.is-inactive {
+	background-position: 0 -4.16vw;
+	background-position-x: 0px;
+	background-position-y: -4.16vw;
+}
+
+.btn-audio.is-active {
+	background-position: 0 0;
+	background-position-x: 0px;
+	background-position-y: 0px;
+}
+
+.popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* background-color: white; */
+	/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+	/* border-radius: 0px; */
+	/* padding: 20px; */
+	text-align: center;
+	display: none;
+	z-index: 1000;
+}
+
+.popup h2 {
+	margin: 0 0 10px;
+}
+
+.got-em {
+	width: 32vw; 
+	height: 24vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 999;
+}
+
+.popup-trigger {
+            cursor: pointer;
+            width: 100px;
+            height: auto;
+        }
+	
+
+#container {
+	width: 100%;
+	height: 3.64vw;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	background: #000;
+	color: #fff;
+}
+
+#container2 {
+	width: 100%;
+	height: 1.56vw;
+	position: absolute;
+	top: 3.64vw;
+	left: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	background: #000;
+	color: #fff;
+}
+
+#container .scroll {
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 210%;
+	white-space: nowrap;
+	animation: loop 20s linear infinite;
+}
+
+#container2 .scroll2 {
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 212%;
+	white-space: nowrap;
+	animation: loop 18s linear infinite;
+}
+
+@keyframes loop {
+	0% {transform: translateX(0%);}
+	100% {transform: translateX(-50%);}
+}
+
+@keyframes pan {
+	0% {transform: 0% 0%;}
+	100% {transform: 100% 0%;}
+}
+
+.guadalupe-roll {
+	display: flex;
+	align-items: center;
+	color: #e2e8f0;
+	background-color: #152c41;
+	white-space: nowrap;
+	background-image: url('https://idylladrian.github.io/graphics/index/guadalupe-small2.png');
+	background-position: center;
+	background-size: 10.4vw 3.64vw;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 3.64vw;
+	left: 0px;
+	top: 0px;
+}
+
+.gracias-roll {
+	display: flex;
+	position: absolute;
+	color: #e2e8f0;
+	background-color: #000000;
+	white-space: nowrap;
+	background-image: url('https://idylladrian.github.io/graphics/index/bendiga.png');
+	background-position: center;
+	background-size: 20.8vw 1.144vw;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 1.56vw;
+	left: 0px;
+	top: 0px;
+}
+
+.seasonal {
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(245, 66, 144, 0.3);
+	padding-left: 19.4vw;
+	padding-right: 19.4vw;
+	padding-top: 5.2vw;
+	padding-bottom: 5.2vw;
+	width: 31.2vw; /* Set width of the <div> */
+	height: 31.2vw; /* Set height of the <div> */
+	background-image: url('https://idylladrian.github.io/graphics/index/winter.jpeg'); /* Replace with your image URL */
+	background-repeat: no-repeat; /* Prevent tiling of the image */
+	background-size: 41.6vw 41.6vw; /* Ensure the image covers the <div> */
+	background-position: center; /* Center the image */
+	
+	border: 3px solid white;
+}
+
+.center-block-text {
+	color: #FFFFFF;
+	font-size: 0.832vw;
+}
+
+.seasonal-text {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #0000ff;
+	margin-top: 0px;
+	font-size: 0.832vw;
+}
+
+.virgen-stamp {
+	width: 5.2vw;
+	display: block; /* Ensures the image behaves like a block element */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pokemon-inline {
+	width: 5vw;
+}
+
+.new-inline {
+	width: 7vw;
+}
+
+@media (max-width: 600px) {
+	.btn-mobile {
+		display: none;
+	}
+	
+	.btn-audio {
+		display: none;
+	}
+	
+	.btn-trick {
+		display: none;
+	}
+	
+	.btn-virus {
+		display: none;
+	}	
+	.center.block1 {
+		width: 90%;
+	}
+	
+	#navigation-panel {
+		width: 90%;
+	}
+	
+	.seasonal {
+		padding: 0;
+		background-size: 90vw 90vw;
+		width: 90vw;
+		height: 90vw;
+	}
+	.seasonal-text {
+		font-size: 3vw;
+		padding: 10vw;
+		padding-bottom: 0vw;
+	}
+	
+	.virgen-stamp {
+		width: 20vw;
+	}
+	
+	.text-myth-fables {
+		font-size: 2.5vw;
+	}
+	
+	#index-page {
+		h1 {
+			font-size: 9vw;
+		}
+	}
+	
+	.center-block-text {
+		font-size: 3vw;
+	}
+	
+	.pokemon-inline {
+		width: 10vw;
+	}
+
+	.new-inline {
+		width: 14vw;
+	}
+}
+
+/* webring-css { */
+  /* display: block; */
+  /* position: relative; */
+  /* max-width: 600px; */
+  /* margin: 1rem auto; */
+/* } */
