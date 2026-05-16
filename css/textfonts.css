@@ -1,0 +1,147 @@
+@import url('https://use.typekit.net/qkd0qog.css');
+
+/* text imports */
+.text-pixel-arcade {
+	/* display: block; */
+	font-family: "cc-pixel-arcade-cartridge", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.text-flame-nova {
+	/* display: block; */
+	font-family: "cc-flame-on-nova", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.text-myth-fables {
+	/* display: block; */
+	font-family: "cc-near-myth-fables", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2vw;
+	/* color: #FFFFFF; */
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+	z-index: 999;
+}
+
+.text-monstrocity {
+	/* display: block; */
+	font-family: "cc-monstrosity-hide", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center; 
+	vertical-align: middle; 
+	padding: 0;
+}
+
+.Chaparral-Pro-Regular {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic {
+	font-family: "chaparral-pro", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Caption {
+	font-family: "chaparral-pro-caption", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic Display {
+	font-family: "chaparral-pro-display", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.Chaparral-Pro-Bold-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.Chaparral-Pro-Bold-Italic-Subhead {
+	font-family: "chaparral-pro-subhead", serif;
+	font-weight: 700;
+	font-style: italic;
+}
