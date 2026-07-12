@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mimi's Portfolio</title>
+		<link rel="stylesheet" href="/css/mimiportfoliolayout.css" type="text/css" media="all">
+		<link rel="icon" href="/graphics/icon.ico">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+		</script>
+	</head>
+
+	<body id="portfolio-page">
+		
+		<!-- this information on how to do the pan-and-zoom functionality was taken from https://harrisonmilbradt.com/blog/canvas-panning-and-zooming -->
+
+		<canvas width="1000" height="1000" id="portfolio-canvas"></canvas>
+
+		<script>
+			const canvas = document.getElementById('portfolio-canvas')
+			const ctx = canvas.getContext('2d')
+
+			const viewportTransform = {
+				: 0,
+				: 0,
+					: 1
+			}
+		</script>
+
+		<!-- TODO implement this graphic properly -->
+	    <script src="./graphics/graphic_scripts/pengu_gif.js"></script>
+
+	</body>
+</html>

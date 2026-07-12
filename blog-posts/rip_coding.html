@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mimi's Web</title>
+		<link rel="stylesheet" href="rip_coding.css">
+		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+		</script>
+	</head>
+	
+	<body id="coding-blog-post">
+		<div class="blur-pane"></div>
+		<div id="fake-code" class='fake-code'></div>
+		<section class="layout">
+			<div class="sidebar" id="numbering"></div>
+			<div class="body">
+				<div>
+					<h1 id="header-type"></h1>
+					<!-- <hr> -->
+				<!-- <div>
+					Writing is thinking. To produce a piece of writing, you need to constantly review what you're putting down. You make a few sentences and you ask yourself "and then what?" or "does this support what I'm trying to convey?" And because you comb through what you are thinking and are questioning what you're saying, you either emerge at the conclusion with a more rigorous stance behind your point of view or you've changed your mind. And I think this is amazing because I can't name too many other things that get people to change their minds. (Maybe being in love?) This is why 
+					<div class="inline">LLMs
+						<div class="content">Large Language Models, like the infamous ChatGPT. These models take in a prompt and respond with the most likely sequence of words that would follow from the prompt. It is a rough analogy to think of LLMs as statistical machines. The answer you receive is the statistically the most likely answer of someone responding to the prompt you provided, pulled from the billions of responses humans have provided to each other online.
+						<div><img src="https://i.ytimg.com/vi/4ZWaJJpgygM/maxresdefault.jpg" width="100" height="100" margins="auto" position="relative"/></div>
+						</div>
+					</div>
+					are particularly frightening to me. When learning to write, we are described the importance of the practice in the phrasing of education goals. "You are writing ot develop your composition skills." "A good essay will show that you understood the assigned reading." While these goals can result in good writing, AKA critical thought process, it places the emphasis on the outcome of the writing and not the process itself. Which is an issue plaguing all educational sectors in the United States, not just english and writing. And because of this, there is a broad cultural perception that writing has no purpose outside of academic rigor and that writing is simply a product of thought rather than thought itself. So when people consider using LLMs for writing, they only consider how it affects the expression of their thought rather than how it affects the thought itself. Writing has already been ill-taught in the American education system, I am curious how much worse critical thought can get, but AI is providing no incentive for students to improve their skills. 
+					Writing
+				</div> -->
+				<div id="body-text-1"></div>
+				<!-- <div id="tooltip-1"/> -->
+				<div id="body-text-2"></div>
+			</div>
+			<div class="right-space"/>
+		</section>
+
+		<script>
+			function make_side_numbering(up_to) {
+				// simple loop to make an array of number strings for HTML
+				const numbering = document.getElementById("numbering");
+				let numString = "";
+				let i = 0;
+				while (i < up_to) {
+					numString = numString + i + "<br>";
+					i++;
+				};
+
+				numbering.innerHTML = numString;
+			}
+
+			function delay(ms) {
+				// create a function that delays actions by an amount of time passed through
+				return new Promise(resolve => setTimeout(resolve, ms));
+			}
+
+			function type_text(full_string, element, step, delay_ms, cursor_class) {
+				// create a recursive function to be called at each animation frame
+				if (step < full_string.length) {
+					element.textContent = full_string.substring(0, step)+"|";
+				} else {
+					element.textContent = full_string;
+				}
+
+				if (step >= full_string.length) {
+					// create a blinking cursor to add when everything is done
+					const blinking_cursor = document.createElement("blinking_cursor");
+					blinking_cursor.textContent = "|";
+					// assign it a class name that it will look for in the CSS document
+					blinking_cursor.className = cursor_class;
+					element.appendChild(blinking_cursor);
+				}
+
+				step++;
+
+				if (step <= full_string.length) {
+					delay(delay_ms).then(() => {
+						requestAnimationFrame(type_text(full_string, element, step, delay_ms, cursor_class));
+					});
+				}
+			}
+
+			function type_HTML(full_string, element, step, delay_ms, cursor_class) {
+				// create a recursive function to be called at each animation frame
+				if (step < full_string.length) {
+					element.innerHTML = full_string.substring(0, step)+"|";
+				} else {
+					element.innerHTML = full_string;
+				}
+
+				if (step >= full_string.length) {
+					// create a blinking cursor to add when everything is done
+					const blinking_cursor = document.createElement("blinking_cursor");
+					blinking_cursor.textContent = "|";
+					// assign it a class name that it will look for in the CSS document
+					blinking_cursor.className = cursor_class;
+					element.appendChild(blinking_cursor);
+				}
+
+				step++;
+
+				if (step <= full_string.length) {
+					delay(delay_ms).then(() => {
+						requestAnimationFrame(type_text(full_string, element, step, delay_ms, cursor_class));
+					});
+				}
+			}
+
+			function add_tooltip(text, content) {
+
+			}
+
+			const code_element = document.getElementById("fake-code");
+			const fake_script = `
+				&lt;script&gt;
+				(function () {
+				    const config = {
+				        apiUrl: "https://example.com/api",
+				        timeout: 5000,
+				        retries: 3
+				    };
+
+				    async function fetchData(endpoint) {
+				        try {
+				            const response = await fetch(config.apiUrl + endpoint);
+
+				            if (!response.ok) {
+				                throw new Error("Request failed");
+				            }
+
+				            const data = await response.json();
+				            console.log("Loaded:", data);
+
+				            return data;
+				        } catch (err) {
+				            console.error("Error:", err.message);
+				            return null;
+				        }
+				    }
+
+				    function initialize() {
+				        console.log("Application initialized.");
+				        fetchData("/status");
+				    }
+
+				    document.addEventListener("DOMContentLoaded", initialize);
+				})();
+				&lt;/script&gt;
+				`;
+
+			type_HTML(fake_script, code_element, 0, 100, "blink-code")
+
+			const header_element = document.getElementById("header-type");
+			const header_text = "C0DING: Humanity's Shortest-Lived Art Form";
+
+			make_side_numbering(40);
+			type_text(header_text, header_element, 0, 100, "blink-h1");
+
+			const body_1_element = document.getElementById("body-text-1");
+			const body_1_text = `Writing is thinking. To produce a piece of writing, you need to constantly review what you're putting down. You make a few sentences and you ask yourself "and then what?" or "does this support what I'm trying to convey?" And because you comb through what you are thinking and are questioning what you're saying, you either emerge at the conclusion with a more rigorous stance behind your point of view or you've changed your mind. And I think this is amazing because I can't name too many other things that get people to change their minds. (Maybe being in love?) This is why`;
+			type_text(body_1_text, body_1_element, 0, 2, "blink-p");
+
+			const tooltip_1_element = document.getElementById("tooltip-1");
+			const tooltip_1_keyphrase = "LLMs";
+			const tooltip_1_content = `Large Language Models, like the infamous ChatGPT. These models take in a prompt and respond with the most likely sequence of words that would follow from the prompt. It is a rough analogy to think of LLMs as statistical machines. The answer you receive is the statistically the most likely answer of someone responding to the prompt you provided, pulled from the billions of responses humans have provided to each other online.`;
+			const tooltip_1_image = null;
+
+			const body_2_element = document.getElementById("body-text-2");
+			const body_2_text = `are particularly frightening to me. When learning to write, we are described the importance of the practice in the phrasing of education goals. "You are writing to develop your composition skills." "A good essay will show that you understood the assigned reading." While these goals can result in good writing, AKA critical thought process, it places the emphasis on the outcome of the writing and not the process itself. Which is an issue plaguing all educational sectors in the United States, not just english and writing. And because of this, there is a broad cultural perception that writing has no purpose outside of academic rigor and that writing is simply a product of thought rather than thought itself. So when people consider using LLMs for writing, they only consider how it affects the expression of their thought rather than how it affects the thought itself. Writing has already been ill-taught in the American education system, I am curious how much worse critical thought can get, but AI is providing no incentive for students to improve their skills. 
+				Writing`;
+			type_text(body_2_text, body_2_element, 0, 2, "blink-p");
+
+		</script>
+	</body>
+</html>
