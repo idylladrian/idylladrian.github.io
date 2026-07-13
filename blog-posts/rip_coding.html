@@ -25,20 +25,10 @@
 			<div class="body">
 				<div>
 					<h1 id="header-type"></h1>
-					<!-- <hr> -->
-				<!-- <div>
-					Writing is thinking. To produce a piece of writing, you need to constantly review what you're putting down. You make a few sentences and you ask yourself "and then what?" or "does this support what I'm trying to convey?" And because you comb through what you are thinking and are questioning what you're saying, you either emerge at the conclusion with a more rigorous stance behind your point of view or you've changed your mind. And I think this is amazing because I can't name too many other things that get people to change their minds. (Maybe being in love?) This is why 
-					<div class="inline">LLMs
-						<div class="content">Large Language Models, like the infamous ChatGPT. These models take in a prompt and respond with the most likely sequence of words that would follow from the prompt. It is a rough analogy to think of LLMs as statistical machines. The answer you receive is the statistically the most likely answer of someone responding to the prompt you provided, pulled from the billions of responses humans have provided to each other online.
-						<div><img src="https://i.ytimg.com/vi/4ZWaJJpgygM/maxresdefault.jpg" width="100" height="100" margins="auto" position="relative"/></div>
-						</div>
-					</div>
-					are particularly frightening to me. When learning to write, we are described the importance of the practice in the phrasing of education goals. "You are writing ot develop your composition skills." "A good essay will show that you understood the assigned reading." While these goals can result in good writing, AKA critical thought process, it places the emphasis on the outcome of the writing and not the process itself. Which is an issue plaguing all educational sectors in the United States, not just english and writing. And because of this, there is a broad cultural perception that writing has no purpose outside of academic rigor and that writing is simply a product of thought rather than thought itself. So when people consider using LLMs for writing, they only consider how it affects the expression of their thought rather than how it affects the thought itself. Writing has already been ill-taught in the American education system, I am curious how much worse critical thought can get, but AI is providing no incentive for students to improve their skills. 
-					Writing
-				</div> -->
-				<div id="body-text-1"></div>
-				<!-- <div id="tooltip-1"/> -->
-				<div id="body-text-2"></div>
+					<div id="body-text-1"></div>
+					<!-- <div id="tooltip-1"/> -->
+					<div id="body-text-2"></div>
+				</div>
 			</div>
 			<div class="right-space"/>
 		</section>
@@ -83,8 +73,11 @@
 
 				if (step <= full_string.length) {
 					delay(delay_ms).then(() => {
-						requestAnimationFrame(type_text(full_string, element, step, delay_ms, cursor_class));
+						requestAnimationFrame(() => {type_text(full_string, element, step, delay_ms, cursor_class)
+								}
+							);
 					});
+					return element
 				}
 			}
 
@@ -109,7 +102,26 @@
 
 				if (step <= full_string.length) {
 					delay(delay_ms).then(() => {
-						requestAnimationFrame(type_text(full_string, element, step, delay_ms, cursor_class));
+						requestAnimationFrame(type_HTML(full_string, element, step, delay_ms, cursor_class));
+					});
+				}
+			}
+
+			function add_text(full_string, element, step, delay_ms, cursor_class) {
+				temp_element = document.createElement("temp_element")
+				if ((step === 0) && (step < full_string.length)) {
+					temp_element.textContent = full_string.substring(0, step);
+				} else if ((step > 0) & (step < full_string.length)) {
+					temp_element.textContent = full_string.substring(step-1, step);
+				}
+
+				element.appendChild(temp_element);
+
+				step++;
+
+				if (step <= full_string.length) {
+					delay(delay_ms).then(() => {
+						requestAnimationFrame(add_text(full_string, element, step, delay_ms, cursor_class));
 					});
 				}
 			}
@@ -161,22 +173,28 @@
 			const header_element = document.getElementById("header-type");
 			const header_text = "C0DING: Humanity's Shortest-Lived Art Form";
 
-			make_side_numbering(40);
+			make_side_numbering(200);
 			type_text(header_text, header_element, 0, 100, "blink-h1");
 
 			const body_1_element = document.getElementById("body-text-1");
-			const body_1_text = `Writing is thinking. To produce a piece of writing, you need to constantly review what you're putting down. You make a few sentences and you ask yourself "and then what?" or "does this support what I'm trying to convey?" And because you comb through what you are thinking and are questioning what you're saying, you either emerge at the conclusion with a more rigorous stance behind your point of view or you've changed your mind. And I think this is amazing because I can't name too many other things that get people to change their minds. (Maybe being in love?) This is why`;
+			const body_1_text = `____Writing is thinking. To produce a piece of writing, you need to constantly review what you're putting down. You make a few sentences and you ask yourself "and then what?" or "does this support what I'm trying to convey?" And because you comb through what you are thinking and are questioning what you're saying, you either emerge at the conclusion with a more rigorous stance behind your point of view or you've changed your mind. And I think this is amazing because I can't name too many other things that get people to change their minds. (Maybe being in love?) This is why`;
 			type_text(body_1_text, body_1_element, 0, 2, "blink-p");
+			// add_text(body_1_text, body_1_element, 0, 2, "blink-p");
 
 			const tooltip_1_element = document.getElementById("tooltip-1");
 			const tooltip_1_keyphrase = "LLMs";
 			const tooltip_1_content = `Large Language Models, like the infamous ChatGPT. These models take in a prompt and respond with the most likely sequence of words that would follow from the prompt. It is a rough analogy to think of LLMs as statistical machines. The answer you receive is the statistically the most likely answer of someone responding to the prompt you provided, pulled from the billions of responses humans have provided to each other online.`;
-			const tooltip_1_image = null;
+			const tooltip_1_image_url = "https://i.ytimg.com/vi/4ZWaJJpgygM/maxresdefault.jpg";
 
 			const body_2_element = document.getElementById("body-text-2");
-			const body_2_text = `are particularly frightening to me. When learning to write, we are described the importance of the practice in the phrasing of education goals. "You are writing to develop your composition skills." "A good essay will show that you understood the assigned reading." While these goals can result in good writing, AKA critical thought process, it places the emphasis on the outcome of the writing and not the process itself. Which is an issue plaguing all educational sectors in the United States, not just english and writing. And because of this, there is a broad cultural perception that writing has no purpose outside of academic rigor and that writing is simply a product of thought rather than thought itself. So when people consider using LLMs for writing, they only consider how it affects the expression of their thought rather than how it affects the thought itself. Writing has already been ill-taught in the American education system, I am curious how much worse critical thought can get, but AI is providing no incentive for students to improve their skills. 
-				Writing`;
-			type_text(body_2_text, body_2_element, 0, 2, "blink-p");
+			const body_2_text = `are particularly frightening to me. When learning to write, we are described the importance of the practice in the phrasing of education goals. "You are writing to develop your composition skills." "A good essay will show that you understood the assigned reading." While these goals can result in good writing, AKA critical thought process, it places the emphasis on the outcome of the writing and not the process itself. Which is an issue plaguing all educational sectors in the United States, not just english and writing. And because of this, there is a broad cultural perception that writing has no purpose outside of academic rigor and that writing is simply a product of thought rather than thought itself. So when people consider using LLMs for writing, they only consider how it affects the expression of their thought rather than how it affects the thought itself. Writing has already been ill-taught in the American education system, I am curious how much worse critical thought can get, but AI is providing no incentive for students to improve their skills.`;
+			type_text(body_2_text, body_2_element, 0, 25, "blink-p");
+
+			const body_3_element = document.getElementById("body-text-3");
+			const body_3_text = `Writing has an esoteric baby sibling in the realm of human-thinking activities: coding. I first learned to how to write code in college. `;
+
+			// body_1_element.appendChild(body_2_element);
+			// body_2_element.appendChild(body_1_element);
 
 		</script>
 	</body>
