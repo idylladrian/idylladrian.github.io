@@ -1,0 +1,180 @@
+#blog-post {
+	
+	A:link { 
+	text-decoration: none; 
+	color: white; 
+	}
+
+	A:visited { 
+		text-decoration: none; 
+		color: white; 
+	}
+
+	A:active { 
+		text-decoration: none; 
+		color: white; 
+	}
+
+	A:hover { 
+		text-decoration: none; 
+		color:#0000ff;
+	}
+	
+	h1 {
+		font-family: Times New Roman, serif;
+		font-weight: normal;
+		font-size: 2.08vwpx;
+		color: #000000; 
+		margin-top: 0.26vw;
+		margin-bottom: 0.26vw;
+	}
+	
+	h2 {
+		font-family: Times New Roman, serif;
+		color: #000000;
+		font-weight: normal;
+		font-size: 1.56vw;
+	}
+	
+	cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;
+	-webkit-ind-animation: cursor 3200ms infinite;
+	animation: cursor 3200ms infinite;
+
+	p {
+		font-family: arial, sans-serif;
+		color: #000000;
+		margin: 0px;
+		
+	}
+
+	background: black;
+/* 	background-image: url('https://idylladrian.github.io/graphics/index_background.jpg');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
+	background-attachment: fixed; */
+	
+	image-rendering: pixelated;
+	/* overflow: hidden; */
+	
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@-webkit-ind-keyframes cursor {
+  0% {cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/pencil-5.gif'), auto;}
+} 
+
+@keyframes cursor {
+  0% {cursor: url('https://idylladrian.github.io/graphics/pencil-0.gif'), auto;}
+  15% {cursor: url('https://idylladrian.github.io/graphics/pencil-1.gif'), auto;}
+  30% {cursor: url('https://idylladrian.github.io/graphics/pencil-2.gif'), auto;}
+  45% {cursor: url('https://idylladrian.github.io/graphics/pencil-3.gif'), auto;}
+  60% {cursor: url('https://idylladrian.github.io/graphics/pencil-4.gif'), auto;}
+  75% {cursor: url('https://idylladrian.github.io/graphics/pencil-5.gif'), auto;}
+}
+
+.loader-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.loader {
+	display: block;
+	background-image: url('https://idylladrian.github.io/graphics/frog_loader.gif');
+	width: 5.2vw;
+	height: 3.12vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 3.9vw;
+	animation: loader 0.9s infinite ease;
+}
+
+@keyframes loader {
+	0% { transform: translateX(0px);}
+	7% { transform: translateX(-30px);}
+	14% { transform: translateX(-50px);}
+	21% { transform: translateX(-80px);}
+	28% { transform: translateX(-110px);}
+	35% { transform: translateX(-120px);}
+	42% { transform: translateX(-130px);}
+	49% { transform: translateX(-140px);}
+	56% { transform: translateX(-150px);}
+	63% { transform: translateX(-150px);}
+	70% { transform: translateX(-150px);}
+	77% { transform: translateX(-150px);}
+	84% { transform: translateX(-150px);}
+	91% { transform: translateX(-60px);}
+	100% { transform: translateX(0px);}
+}
+
+
+.blog-background {
+	left: 0px;
+	top: 0px;
+	background-image: url("nyctrain.jpg");
+	background-size: 100vw 100vh;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.blur {
+	position: fixed;
+	top: 35%;
+	width: 100%;
+	height: 30%;
+	backdrop-filter: blur(5px);
+	z-index: 0;
+}
+
+.text-effects {
+	position: fixed;
+	text-align: center;
+  margin: auto;
+	color: white;
+	mix-blend-mode: difference;
+	font-size: 19vw;
+	font-weight: bold;
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.l-train-logo {
+	position: absolute;
+	filter: brightness(0);
+	filter: invert(100%);
+	width: 10%;
+	z-index: 2;
+}
+
+
+
+
+
