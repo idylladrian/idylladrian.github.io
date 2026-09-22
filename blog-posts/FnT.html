@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mimi's Web</title>
+		<link rel="stylesheet" href="FnT.css">
+		<link rel="icon" href="https://idylladrian.github.io/graphics/icon.ico">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<div class="loader-wrapper">
+			<span class="loader"></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+				});
+		</script>
+	</head>
+
+	<body id="container">
+
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+
+		<script>
+			let col_num = "auto";
+			while (i < 5) {
+					col_num = col_num + " auto";
+					i++;
+				};
+			document.getElementById("container").style.grid-template-columns = col_num;
+			document.getElementById("container").style.background-color="white";
+		</script>
+
+	</body>
+
+	<footer>
+
+	</footer>
+</html>
