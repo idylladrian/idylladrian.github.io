@@ -12,7 +12,7 @@ p {
 	h1 {
 		font-family: arial, sans-serif;
 		color: #FFFFFF; 
-	}
+	};
 	
 	cursor: url('https://idylladrian.github.io/graphics/hello-0.gif'), auto;
 	-webkit-ind-animation: cursor 400ms infinite;
@@ -21,13 +21,16 @@ p {
 	p {
 		font-family: arial, sans-serif;
 		color: #000000; 
-	}
+	};
 
-	background: #fff8e3;
+	background-color: #0D1029;
 	
 	image-rendering: pixelated;
-	width: 98vw;
-	margin: 2vw;
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	margin: 0;
+	top: 0px;
 	/* overflow: hidden; */
 }
 
@@ -101,6 +104,63 @@ p {
 }
 
 #port-table {
+}
+
+
+#side-bar-outside {
+	background: #102830;
+	width: 25%;
+	height: 100vh;
+	max-height: 100vh;
+	top: 0px;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 1%;
+	border-color: #4FFFCB;
+	p {
+		color: #4FFFCB;
+	}
+}
+
+#side-bar-inside {
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+#side-bar-logo {
+	width: 100%;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+#side-bar-inner {
+	font-size: 10px;
+}
+
+.paintings-button {
+	width: 100%;
+	height: 10%;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 1%;
+	border-color: #4FFFCB;
+	p {
+		margin: 0;
+		color: #4FFFCB;
+		height: 100%;
+		vertical-align: text-bottom;
+		text-align: center;
+	}
+}
+
+.paintings-button:hover {
+	background-color: #4FFFCB;
+	p {
+		color: #0D1029;
+		
+	}
 }
 
 .year-range {
