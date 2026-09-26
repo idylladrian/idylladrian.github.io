@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mimi's Portfolio</title>
-		<link rel="stylesheet" href="css/mimiportfoliolayout.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/mimiportfoliolayout2.css" type="text/css" media="all">
 		<link rel="icon" href="graphics/icon.ico">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -19,22 +19,57 @@
 
 	<body id="portfolio-page">
 		
-		<div id="side-bar-outside">
-			<div id="side-bar-inside">
-				<a href="index.html"><img src="graphics/mimiweblogo_index_cyan.png" id="side-bar-logo"></a>
-				<p>test</p>
-				<input type="checkbox" id="toggle-paintings" class="paintings-button">
-					<p>PAINTINGS</p>
-				</input>
-				<input type="checkbox" id="painting-1" class="paintings-button">
-					<p>PAINTING 1</p>
-				</input>
-				<input type="checkbox" id="painting-2" class="paintings-button">
-					<p>PAINTING 2</p>
-				</input>
-				<input type="checkbox" id="painting-3" qclass="paintings-button">
-					<p>PAINTING 3</p>
-				</input>
+		<div class="container">
+			<div id="side-bar-outside">
+				<div id="side-bar-inside">
+					<a href="index.html"><img src="graphics/mimiweblogo_index_cyan.png" id="side-bar-logo"></a>
+					<div>
+						<label for="toggle-paintings">PAINTINGS</label>
+						<input type="checkbox" id="toggle-paintings" class="visually-hidden">
+						
+						<div id="paintings">
+							<div>
+								<label for="toggle-painting-1">PAINTING 1</label>
+								<input type="checkbox" id="toggle-painting-1" class="visually-hidden">
+								<!-- <div id="graphic-possession"></div> -->
+							</div>
+							<div>
+								<label for="toggle-painting-2">PAINTING 2</label>
+								<input type="checkbox" id="toggle-painting-2" class="visually-hidden">
+							</div>
+							<div>
+								<label for="toggle-painting-3">PAINTING 3</label>
+								<input type="checkbox" id="toggle-painting-3" class="visually-hidden">
+							</div>
+						</div>
+						<label for="toggle-drawings">DRAWINGS</label>
+						<input type="checkbox" id="toggle-drawings" class="visually-hidden">
+						
+						<div id="drawings">
+							<div>
+								<label for="toggle-drawing-1">DRAWING 1</label>
+								<input type="checkbox" id="toggle-drawing-1" class="visually-hidden">
+							</div>
+							<div>
+								<label for="toggle-drawing-2">DRAWING 2</label>
+								<input type="checkbox" id="toggle-drawing-2" class="visually-hidden">
+							</div>
+							<div>
+								<label for="toggle-drawing-3">DRAWING 3</label>
+								<input type="checkbox" id="toggle-drawing-3" class="visually-hidden">
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container-2">
+				<div>
+					<div id="graphic-possession"></div>
+				</div>
+				<div id="info-box">
+					<p>test</p>
+				</div>
 			</div>
 		</div>
 
