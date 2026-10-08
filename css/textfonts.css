@@ -1,5 +1,23 @@
 @import url('https://use.typekit.net/qkd0qog.css');
 
+@font-face {
+  font-family: 'Papyrus';
+  src: 
+  	url('papyrus.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LEDLIGHT';
+  src:
+  	url('LEDLIGHT.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LinearBeam';
+  src:
+  	url('LinearBeam05.woff2') format('woff2');
+}
+
 /* text imports */
 .text-pixel-arcade {
 	/* display: block; */
@@ -30,7 +48,7 @@
 	font-family: "cc-near-myth-fables", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 2vw;
+	font-size: 1rem;
 	/* color: #FFFFFF; */
 	text-align: center; 
 	vertical-align: middle; 

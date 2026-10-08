@@ -36,6 +36,10 @@ p {
 	margin-top: 0px;
 }
 
+html {
+scroll-timeline: --main-timeline;
+}
+
 /* overall index page setup */
 #index-page {
 	h1 {
@@ -62,7 +66,25 @@ p {
 	
 	/* rendering makes the page look retro */
 	image-rendering: pixelated;
+	background-image: url('../graphics/bgstar45.gif.jpeg');
+	background-color: black;
+
+	height: 100%;
+
+	animation: background-animation linear;
+  	animation-timeline: scroll(nearest inline);
 }
+
+/* TODO HAVE COLOR CHANGE WITH SCROLL */
+@keyframes background-animation {
+	0% {
+		background-color: black;
+	}
+	100% {
+		background-color: magenta;
+	}
+}
+
 
 @-webkit-ind-keyframes cursor {
   0% {cursor: url('../graphics/index/hottie-0.gif'), auto;}
@@ -74,16 +96,7 @@ p {
   100% {cursor: url('../graphics/index/hottie-1.gif'), auto;}
 }
 
-body::before {
-      content: "";
-      position: fixed; /* Keeps it fixed even on iOS */
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-image: url("../graphics/index_background.jpg"); /* Replace with your image */
-      background-size: cover;
-      background-position: center;
+body {
       z-index: -1; /* Pushes it behind everything else */
 }
 
@@ -132,6 +145,8 @@ body::before {
 
 .content {
 	display: block;
+	/* padding-left: 5vw;
+	padding-right: 5vw; */
 }
 
 .center {
@@ -140,13 +155,15 @@ body::before {
 }
 
 .center.block1 {
-	background-image: url('../graphics/index/oceanwave.gif');
+	background-image: url('../graphics/tv.gif');
 	text-align: center;
 	vertical-align: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	/* border: 3px solid white; */
 	/* padding-bottom: 20px; */
 	width: 70vw;
-	height: 20vw;
+	height: 50vw;
 	color: white;
 }
 
@@ -186,37 +203,41 @@ body::before {
 	}
 }
 
+#bottom-spacing {
+	height: 5vh;
+}
+
 #chumbox {
+	padding-left: 5%;
+	padding-right: 5%;
 	left: 0px;
 	bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 	float: none;
-	width: 100%;
+	width: 90%;
+	height: 20vw;
 }
 
 #chumbox-table {
 	width: 100%;
+	height: 100%;
 	
 	td, th {
-		/* max-width: 20%; */
-		padding: 0px;
 	}
 	
 	tr.id-1 {
 		img {
-			height: 10vw;
+			height: 70%;
 			width: 100%;
-			background-size: contain;
 			padding: 0px;
 		}
 	}
 	
 	tr.id-2 {
 		img {
-			height: 3vw;
+			height: 30%;
 			width: 100%;
-			background-size: contain;
 			padding: 0px;
 		}
 	}
@@ -387,16 +408,16 @@ body::before {
 }
 
 .btn-mobile {
-	width: 10.4vw;
+	width: 8.6vw;
 	height: 2.288vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 21vw; /*5.72*/
-	left: 1vw; /*0.52*/
+	top: 30vw; /*5.72*/
+	left: 5vw; /*0.52*/
 	z-index: 999;
 	background-image: url('../graphics/index/button_mobile.gif');
-	background-size: 10.4vw 2.288vw;
+	background-size: 8.6vw 2.288vw;
 }
 
 .btn-audio {
@@ -405,8 +426,8 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 21vw;
-	right: 1vw;
+	top: 30vw;
+	right: 9vw;
 	z-index: 999;
 	background-image: url('../graphics/index/ico-audio.png');
 	background-size: 4.16vw;
@@ -418,24 +439,24 @@ body::before {
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 24vw;
-	left: 1vw;
+	top: 35vw;
+	left: 5vw;
 	z-index: 999;
 	background-image: url('../graphics/index/click.gif');
 	background-size: 8.6vw 6vw;
 }
 
 .btn-virus {
-	width: 11.4vw;
+	width: 8.6vw;
 	height: 7.5vw;
 	display: block;
 	cursor: pointer;
 	position: absolute;
-	top: 33vw;
-	left: 1vw;
+	top: 45vw;
+	left: 5vw;
 	z-index: 999;
 	background-image: url('../graphics/index/antivirus.gif');
-	background-size: 11.4vw 7.5vw;
+	background-size: 8.6vw 7.5vw;
 }
 
 .btn-audio.is-inactive {
@@ -496,11 +517,11 @@ body::before {
 
 #container {
 	width: 100%;
-	height: 3.64vw;
+	height: calc(2 * 3.64vw);
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	overflow: hidden;
+	overflow: clip;
 	white-space: nowrap;
 	background: #000;
 	color: #fff;
@@ -551,15 +572,16 @@ body::before {
 .guadalupe-gif {
 	display: flex;
 	align-items: center;
-	color: #09009C;
-	background-color: #09009C;
+	/* color: #09009C; */
+	/* background-color: #09009C; */
+	/* color: black; */
 	white-space: nowrap;
 	background-image: url('../graphics/index/virgencita.gif');
 	background-position: center;
-	background-size: 2.25vw 3.64vw;
-	background-repeat: repeat-x;
+	background-size: calc(2 * 2.25vw) calc(2 * 3.64vw);
+	background-repeat: space;
 	width: 100%;
-	height: 3.64vw;
+	height: calc(2 * 3.64vw);
 	left: 0px;
 	top: 0px;
 }
@@ -580,10 +602,34 @@ body::before {
 	top: 0px;
 }
 
+.tv-welcome {
+	width: 40%;
+	height: 30%;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 32%;
+	padding-bottom: 38%;
+}
+
 
 .center-block-text {
-	color: #FFFFFF;
-	font-size: 2vw;
+	p {
+		color: #FFFFFF;
+		font-family: "LinearBeam", sans-serif;
+		font-size: 1.25rem;
+		color: cyan;
+	}
+	
+	width: 100%;
+	height:100%;
+	overflow: scroll;
+
+	scrollbar-width: none;
+	-ms-overflow-style: none; 
+}
+
+.center-block-text::-webkit-scrollbar {
+    display: none;
 }
 
 
