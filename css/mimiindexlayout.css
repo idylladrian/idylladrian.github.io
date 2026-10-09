@@ -658,7 +658,7 @@ body {
 	.btn-virus {
 		display: none;
 	}	
-	.center.block1 {
+	/* .center.block1 {
 		width: 100%;
 		height: 30vw;
 	}
@@ -673,41 +673,22 @@ body {
 	
 	#container2 {
 		top: 16vw;
-	}
+	} */
 	
-	.guadalupe-gif {
+	/* .guadalupe-gif {
 		background-size: 8vw 15vw;
 		background-repeat: repeat-x;
 		height: 15vw;
-	}
+	} */
 	
 	.graphic.id-8 {
 		top: 16vw;
 	}	
 	
-	.content {
+	/* .content {
 		margin-top: 10vw;
-	}
+	} */
 	
-	.seasonal {
-		padding: 0;
-		background-size: 90vw 90vw;
-		width: 90vw;
-		height: 90vw;
-	}
-	.seasonal-text {
-		font-size: 3vw;
-		padding: 10vw;
-		padding-bottom: 0vw;
-	}
-	
-	.virgen-stamp {
-		width: 20vw;
-	}
-	
-	.text-myth-fables {
-		font-size: 2.5vw;
-	}
 	
 	.pokemon-inline {
 		width: 10vw;

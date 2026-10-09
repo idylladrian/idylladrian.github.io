@@ -18,6 +18,11 @@
   	url('LinearBeam05.woff2') format('woff2');
 }
 
+@font-face {
+	font-family: 'Mont';
+	src: url('Mont-HeavyDEMO.woff2') format('woff2');
+}
+
 /* text imports */
 .text-pixel-arcade {
 	/* display: block; */

@@ -5,6 +5,7 @@
 		<title>Mimi's Portfolio</title>
 		<link rel="stylesheet" href="css/mimiportfoliolayout2.css" type="text/css" media="all">
 		<link rel="icon" href="graphics/icon.ico">
+		<link rel="stylesheet" href="https://unpkg.com/xp.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<div class="loader-wrapper">
@@ -19,56 +20,51 @@
 
 	<body id="portfolio-page">
 		
-		<div class="container">
-			<div id="side-bar-outside">
-				<div id="side-bar-inside">
-					<a href="index.html"><img src="graphics/mimiweblogo_index_cyan.png" id="side-bar-logo"></a>
-					<div>
-						<label for="toggle-paintings">PAINTINGS</label>
-						<input type="checkbox" id="toggle-paintings" class="visually-hidden">
-						
-						<div id="paintings">
-							<div>
-								<label for="toggle-painting-1">PAINTING 1</label>
-								<input type="checkbox" id="toggle-painting-1" class="visually-hidden">
-								<div id="graphic-possession"></div>
-							</div>
-							<div>
-								<label for="toggle-painting-2">PAINTING 2</label>
-								<input type="checkbox" id="toggle-painting-2" class="visually-hidden">
-							</div>
-							<div>
-								<label for="toggle-painting-3">PAINTING 3</label>
-								<input type="checkbox" id="toggle-painting-3" class="visually-hidden">
-							</div>
-						</div>
-						<label for="toggle-drawings">DRAWINGS</label>
-						<input type="checkbox" id="toggle-drawings" class="visually-hidden">
-						
-						<div id="drawings">
-							<div>
-								<label for="toggle-drawing-1">DRAWING 1</label>
-								<input type="checkbox" id="toggle-drawing-1" class="visually-hidden">
-							</div>
-							<div>
-								<label for="toggle-drawing-2">DRAWING 2</label>
-								<input type="checkbox" id="toggle-drawing-2" class="visually-hidden">
-							</div>
-							<div>
-								<label for="toggle-drawing-3">DRAWING 3</label>
-								<input type="checkbox" id="toggle-drawing-3" class="visually-hidden">
-							</div>
-						</div>
-						
-					</div>
+		<div class="bucket">
+			<div class="title">
+				<h1>
+					PAINTINGS<a href="index.html"><img src="graphics/icon.png" class="inline-logo"/></a>PAINTINGSPAINTINGSPAINTINGSPAINTINGSPAINTINGSPAINTINGS
+				</h1>
+			</div>
+		</div>
+			<div class="scroll" id="painting-scroll">
+				<div class="scroll-container">
+					<a href="javascript:void(0)" id=popupButton><img src="graphics/possession1.jpeg" class="interact-img" id="possession-painting-icon"/></a>
+					
 				</div>
 			</div>
-			<div class="container-2">
-				<div>
-					<!-- <div id="graphic-possession"></div> -->
-				</div>
-				<div id="info-box">
-					<p>test</p>
+
+		<div class="bucket">
+			<div class="title"><h2>DRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGS</h2></div>
+		</div>
+			<div class="scroll" id="drawing-scroll">
+				
+			</div>
+		
+		<div class="bucket">
+			<div class="title"><h1>SKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOK</h1></div>
+			<div class="scroll" id=""></div>
+		</div>
+
+		<div class="bucket">
+			<div class="title"><h2>MISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUS</h2></div>
+			<div class="scroll" id=""></div>
+		</div>
+
+		<div class="popup-overlay" id="popupOverlay"></div>
+		<div class="popup" id="popup">
+			<div class="window">
+				<div class="title-bar">
+					<div class="title-bar-text">Possession #1</div>
+						<div class="title-bar-controls">
+						<button aria-label="Minimize"></button>
+						<button aria-label="Maximize"></button>
+						<button aria-label="Close" id="closeButton"></button>
+						</div>
+			  	</div>
+				<div class="window-body">
+						<img src="graphics/possession1.jpeg" class="art-display"/>
+						<p>"Possession #1"<br>Oil Paint on Canvas<br>2026</p>
 				</div>
 			</div>
 		</div>
@@ -76,5 +72,23 @@
 	</body>
 	
 	<script>
+		const popupButton = document.getElementById('popupButton');
+		const popup = document.getElementById('popup');
+		const closePopup = document.getElementById('closeButton');
+		const popupOverlay = document.getElementById('popupOverlay');
+
+		popupButton.addEventListener('click', function() {
+			popup.style.display = 'block';
+			popupOverlay.style.display = 'block';
+		});
+
+			// Close popup and stop audio
+		const closePopupHandler = function() {
+			popup.style.display = 'none';
+			popupOverlay.style.display = 'none';
+		};
+
+		closePopup.addEventListener('click', closePopupHandler);
+		popupOverlay.addEventListener('click', closePopupHandler);
 	</script>
 </html>
