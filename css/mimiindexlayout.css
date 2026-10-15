@@ -71,18 +71,6 @@ scroll-timeline: --main-timeline;
 
 	height: 100%;
 
-	animation: background-animation linear;
-  	animation-timeline: scroll(nearest inline);
-}
-
-/* TODO HAVE COLOR CHANGE WITH SCROLL */
-@keyframes background-animation {
-	0% {
-		background-color: black;
-	}
-	100% {
-		background-color: magenta;
-	}
 }
 
 

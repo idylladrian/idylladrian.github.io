@@ -1,8 +1,8 @@
-@import url('../textfonts.css');
+@import url('textfonts.css');
 
 @font-face {
 	font-family: 'PX150';
-	src: url('PX150VF.woff2') format('woff2');
+	src: url('typefaces/PX150VF.woff2') format('woff2');
 	/* format('truetype'); */
 }
 
@@ -54,7 +54,7 @@ p {
 	max-height: 100vh;
 	margin: 0;
 	top: 0px;
-	/* overflow: hidden; */
+	overflow-x: hidden;
 }
 
 @-webkit-ind-keyframes cursor {

@@ -127,7 +127,7 @@
 .blog-background {
 	left: 0px;
 	top: 0px;
-	background-image: url("nyctrain.jpg");
+	background-image: url("../img/nyctrain.jpg");
 	background-size: 100vw 100vh;
 	display: block;
 	position: fixed;

@@ -1,3 +1,16 @@
+A:link {
+	color: cyan;
+	text-decoration: underline; 
+}
+
+/* A:visited { 
+	color: rgb(0, 255, 13); 
+} */
+
+A:hover {
+	color: white;
+}
+
 body {
 	p {
 		font-family: arial, sans-serif;
@@ -103,4 +116,35 @@ body {
 
 #progress-header {
 	height: 45%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Add dots under the hoverable text */
+  cursor: pointer;
+  color: cyan;
+}
+
+/* Tooltip text */
+.tooltipcorolla {
+  visibility: hidden; /* Hidden by default */
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+  background-image: url('../graphics/IMG_4807.jpg');
+  background-size: 10rem 10rem;
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltipcorolla {
+  visibility: visible;
 }

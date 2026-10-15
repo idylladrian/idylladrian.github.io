@@ -3,24 +3,24 @@
 @font-face {
   font-family: 'Papyrus';
   src: 
-  	url('papyrus.woff2') format('woff2');
+  	url('typefaces/papyrus.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'LEDLIGHT';
   src:
-  	url('LEDLIGHT.woff2') format('woff2');
+  	url('typefaces/LEDLIGHT.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'LinearBeam';
   src:
-  	url('LinearBeam05.woff2') format('woff2');
+  	url('typefaces/LinearBeam05.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Mont';
-	src: url('Mont-HeavyDEMO.woff2') format('woff2');
+	src: url('typefaces/Mont-HeavyDEMO.woff2') format('woff2');
 }
 
 /* text imports */
