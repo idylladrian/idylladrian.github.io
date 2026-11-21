@@ -5,9 +5,10 @@
 		<title>Mimi's Portfolio</title>
 		<link rel="stylesheet" href="css/mimiportfoliolayout2.css" type="text/css" media="all">
 		<link rel="icon" href="graphics/icon.ico">
-		<link rel="stylesheet" href="https://unpkg.com/xp.css">
+		<link rel="stylesheet" href="https://unpkg.com/98.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
 		<div class="loader-wrapper">
 			<span class="loader"></span>
 		</div>
@@ -16,11 +17,12 @@
 				$(".loader-wrapper").fadeOut("slow");
 				});
 		</script>
+		<script src="javascript/portfolio.js" defer></script>
 	</head>
 
 	<body id="portfolio-page">
 		
-		<div class="bucket">
+		<div id="paintings" class="bucket">
 			<div class="title">
 				<h1>
 					PAINTINGS<a href="index.html"><img src="graphics/icon.png" class="inline-logo"/></a>PAINTINGSPAINTINGSPAINTINGSPAINTINGSPAINTINGS
@@ -29,66 +31,42 @@
 		</div>
 			<div class="scroll" id="painting-scroll">
 				<div class="scroll-container">
-					<a href="javascript:void(0)" id=popupButton><img src="graphics/possession1.jpeg" class="interact-img" id="possession-painting-icon"/></a>
-					
+					<a href="javascript:void(0)" id=popupButton00><img src="graphics/portfolio/possession1.jpeg" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton01><img src="graphics/portfolio/alebrije_study_1.JPG" class="interact-img"/></a>
 				</div>
 			</div>
 
-		<div class="bucket">
-			<div class="title"><h2>DRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGS</h2></div>
+		<div id="drawings" class="bucket">
+			<div class="title"><h2>DRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGSDRAWINGS</h2></div>
 		</div>
 			<div class="scroll" id="drawing-scroll">
-				
+				<div class="scroll-container">
+
+				</div>
 			</div>
 		
-		<div class="bucket">
-			<div class="title"><h1>SKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOK</h1></div>
-			<div class="scroll" id=""></div>
-		</div>
-
-		<div class="bucket">
+		<div id="miscellaneous" class="bucket">
 			<div class="title"><h2>MISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUSMISCELLANEOUS</h2></div>
-			<div class="scroll" id=""></div>
+			<div class="scroll" id="">
+				<div class="scroll-container">
+
+				</div>
+			</div>
 		</div>
 
-		<div class="popup-overlay" id="popupOverlay"></div>
-		<div class="popup" id="popup">
-			<div class="window">
-				<div class="title-bar">
-					<div class="title-bar-text">Possession #1</div>
-						<div class="title-bar-controls">
-						<button aria-label="Minimize"></button>
-						<button aria-label="Maximize"></button>
-						<button aria-label="Close" id="closeButton"></button>
-						</div>
-			  	</div>
-				<div class="window-body">
-						<img src="graphics/possession1.jpeg" class="art-display"/>
-						<p>"Possession #1"<br>Oil Paint on 16"x20" Canvas<br>2026</p>
+		<div id="sketchbook" class="bucket">
+			<div class="title"><h1>SKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOKSKETCHBOOK</h1></div>
+			<div class="scroll" id="">
+				<div class="scroll-container">
+					<a href="javascript:void(0)" id=popupButton30><img src="graphics/portfolio/portrait_old.JPG" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton31><img src="graphics/portfolio/portrait_close_1.JPG" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton32><img src="graphics/portfolio/portrait_close_2.JPG" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton33><img src="graphics/portfolio/cube.tiff" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton34><img src="graphics/portfolio/egg.JPG" class="interact-img"/></a>
+					<a href="javascript:void(0)" id=popupButton35><img src="graphics/portfolio/book.JPG" class="interact-img"/></a>
 				</div>
 			</div>
 		</div>
 
 	</body>
-	
-	<script>
-		const popupButton = document.getElementById('popupButton');
-		const popup = document.getElementById('popup');
-		const closePopup = document.getElementById('closeButton');
-		const popupOverlay = document.getElementById('popupOverlay');
-
-		popupButton.addEventListener('click', function() {
-			popup.style.display = 'block';
-			popupOverlay.style.display = 'block';
-		});
-
-			// Close popup and stop audio
-		const closePopupHandler = function() {
-			popup.style.display = 'none';
-			popupOverlay.style.display = 'none';
-		};
-
-		closePopup.addEventListener('click', closePopupHandler);
-		popupOverlay.addEventListener('click', closePopupHandler);
-	</script>
 </html>
